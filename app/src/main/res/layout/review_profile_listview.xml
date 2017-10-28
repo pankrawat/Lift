@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.liftindia.app.specialview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="@dimen/dpw70"
+        android:layout_height="@dimen/dpw70"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="@dimen/dph10"
+        android:layout_marginTop="@dimen/dph10"
+        android:src="@drawable/com_facebook_profile_picture_blank_portrait" />
+
+    <TextView
+        android:id="@+id/tv_datetime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_name"
+        android:layout_marginLeft="@dimen/dpw5"
+        android:layout_toEndOf="@+id/profile_image"
+        android:layout_toRightOf="@+id/profile_image"
+        android:alpha="0.5"
+        android:paddingLeft="@dimen/dpw5"
+        android:paddingRight="@dimen/dpw5"
+        android:text="4th May, 2017 12:12 am"
+        android:textColor="@color/black"
+        android:textSize="@dimen/sp10" />
+
+    <LinearLayout
+        android:id="@+id/rating_bar"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_datetime"
+        android:layout_marginLeft="@dimen/dpw5"
+        android:layout_toRightOf="@+id/profile_image"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/dpw5"
+        android:paddingRight="@dimen/dpw5">
+
+        <RatingBar
+            android:id="@+id/ratingBarGreen"
+            style="@style/GreenRatingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/dpw5"
+            android:isIndicator="true"
+            android:numStars="5"
+            android:stepSize="0.1"
+            android:visibility="gone" />
+
+        <RatingBar
+            android:id="@+id/ratingBarRed"
+            style="@style/RedRatingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/dpw5"
+            android:isIndicator="true"
+            android:numStars="5"
+            android:stepSize="0.1"
+            android:visibility="gone" />
+
+        <RatingBar
+            android:id="@+id/ratingBarYellow"
+            style="@style/YellowRatingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/dpw5"
+            android:isIndicator="true"
+            android:numStars="5"
+            android:stepSize="0.1"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tv_rating"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical|center_horizontal"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_experience"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rating_bar"
+        android:layout_marginLeft="@dimen/dpw5"
+        android:layout_toEndOf="@+id/profile_image"
+        android:layout_toRightOf="@+id/profile_image"
+        android:paddingBottom="@dimen/dph5"
+        android:paddingLeft="@dimen/dpw5"
+        android:paddingRight="@dimen/dpw5"
+        android:paddingTop="@dimen/dph5"
+        android:text="comment"
+        android:textColor="@color/black"
+        android:textSize="@dimen/sp14" />
+
+    <TextView
+        android:id="@+id/tv_name"
+        fontPath="@string/font_bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/profile_image"
+        android:layout_marginLeft="@dimen/dpw5"
+        android:layout_toEndOf="@+id/profile_image"
+        android:layout_toRightOf="@+id/profile_image"
+        android:paddingBottom="@dimen/dph2"
+        android:paddingLeft="@dimen/dpw5"
+        android:paddingRight="@dimen/dpw5"
+        android:paddingTop="@dimen/dph5"
+        android:text="Sagar Khurana"
+        android:textColor="@color/black"
+        android:textSize="@dimen/sp14"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

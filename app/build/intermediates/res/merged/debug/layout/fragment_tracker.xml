@@ -1,0 +1,283 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context="com.liftindia.app.fragment.TrackerFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/ll_search_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dph40"
+                android:background="@color/white"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/dpw10"
+                android:paddingRight="@dimen/dpw10"
+                android:paddingTop="@dimen/dph2">
+
+                <LinearLayout
+                    android:id="@+id/ll_start"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv_label_start"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:text="Start"
+                        android:textSize="@dimen/sp11" />
+
+                    <TextView
+                        android:id="@+id/tv_start"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginBottom="@dimen/dph1"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="@dimen/dpw20"
+                        android:singleLine="true"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/sp14"
+                        app:minTextSize="@dimen/sp12" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dph1"
+                android:background="@color/cbdbdbd" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dph40"
+                android:background="@color/white"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/dpw10"
+                android:paddingRight="@dimen/dpw10"
+                android:paddingTop="@dimen/dph2">
+
+                <LinearLayout
+                    android:id="@+id/ll_end"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv_label_stop"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:text="End"
+                        android:textSize="@dimen/sp11" />
+
+                    <TextView
+                        android:id="@+id/tv_end"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginBottom="@dimen/dph1"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="@dimen/dpw20"
+                        android:singleLine="true"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/sp14"
+                        app:minTextSize="@dimen/sp12" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dph1"
+                android:background="@color/cbdbdbd" />
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/mapPlace"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/footer"
+            android:layout_below="@id/ll_search_bar" />
+
+        <TextView
+            android:id="@+id/tv_help"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/ll_search_bar"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/dpw50"
+            android:layout_marginRight="@dimen/dpw10"
+            android:layout_marginTop="@dimen/dph10"
+            android:background="@drawable/rounded_corner_red_border_white"
+            android:gravity="center"
+            android:paddingBottom="@dimen/dph5"
+            android:paddingLeft="@dimen/dpw15"
+            android:paddingRight="@dimen/dpw15"
+            android:paddingTop="@dimen/dph5"
+            android:text="Help"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp16" />
+
+        <ImageView
+            android:id="@+id/iv_current_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/tv_help"
+            android:layout_marginEnd="@dimen/dpw30"
+            android:layout_marginRight="@dimen/dpw30"
+            android:layout_marginTop="@dimen/dph20"
+            android:src="@mipmap/locate" />
+
+        <ImageView
+            android:id="@+id/default_map"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/iv_current_location"
+            android:visibility="gone"
+            android:layout_marginEnd="@dimen/dpw30"
+            android:layout_marginRight="@dimen/dpw30"
+            android:layout_marginTop="@dimen/dph20"
+            android:src="@mipmap/map" />
+
+        <ImageView
+            android:id="@+id/direction_map"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:visibility="gone"
+            android:layout_below="@+id/default_map"
+            android:layout_marginEnd="@dimen/dpw30"
+            android:layout_marginRight="@dimen/dpw30"
+            android:layout_marginTop="@dimen/dph20"
+            android:src="@mipmap/locate" />
+
+        <ListView
+            android:id="@+id/listview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/footer"
+            android:layout_marginBottom="-4dp"
+            android:visibility="gone">
+
+        </ListView>
+
+        <!--<TextView-->
+        <!--android:id="@+id/tv_end_ride"-->
+        <!--android:layout_width="70dp"-->
+        <!--android:layout_height="70dp"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_alignTop="@+id/listview"-->
+        <!--android:layout_marginRight="@dimen/dpw10"-->
+        <!--android:layout_marginTop="@dimen/dph10"-->
+        <!--android:gravity="center"-->
+        <!--android:background="@mipmap/end_ride" />-->
+
+        <TextView
+            android:id="@+id/tv_end_ride"
+            android:layout_width="@dimen/dpw70"
+            android:layout_height="@dimen/dpw70"
+            android:layout_above="@+id/footer"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/dph10"
+            android:layout_marginRight="@dimen/dpw10"
+            android:background="@mipmap/end_ride"
+            android:gravity="center" />
+
+        <LinearLayout
+            android:id="@+id/footer"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dph40"
+            android:layout_alignParentBottom="true"
+            android:background="@color/black"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:id="@+id/rl_share"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="#aeacac">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:drawableLeft="@mipmap/share"
+                    android:gravity="center"
+                    android:text="SHARE DETAILS"
+                    android:textSize="@dimen/sp10" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_call"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/dpw1"
+                android:layout_marginRight="@dimen/dpw1"
+                android:layout_weight="1"
+                android:background="#aeacac">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:drawableLeft="@mipmap/call"
+                    android:gravity="center"
+                    android:text="CALL EMERGENCY CONTACT"
+                    android:textSize="@dimen/sp10" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_support"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="#aeacac">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:drawableLeft="@mipmap/customer"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="SUPPORT"
+                    android:textSize="@dimen/sp10" />
+
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_pending_ride"
+            android:icon="@mipmap/taxi"
+            android:title="Pending Rides" />
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_payments"
+            android:icon="@mipmap/pay"
+            android:title="Payments" />
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_message"
+            android:icon="@mipmap/chat"
+            android:title="Message" />
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@mipmap/money"
+            android:title="Share and Earn" />
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@mipmap/setting"
+            android:title="How it works?" />
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_faq"
+            android:icon="@mipmap/faq"
+            android:title="FAQ" />
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_contact_us"
+            android:icon="@mipmap/call"
+            android:title="Contact Us" />
+    </group>
+</menu>

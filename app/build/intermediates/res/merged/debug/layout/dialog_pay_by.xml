@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dph35"
+        android:background="@color/darkGreen"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/textView11"
+            fontPath="@string/font_bold"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/dpw15"
+            android:text="Choose Payment"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp16" />
+
+        <RelativeLayout
+            android:id="@+id/rl_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="@dimen/dpw50"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:paddingBottom="@dimen/dph5"
+                android:paddingLeft="@dimen/dph15"
+                android:paddingRight="@dimen/dph15"
+                android:paddingTop="@dimen/dph5"
+                android:src="@mipmap/white" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_mobikwik"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:padding="@dimen/dph10"
+        android:text="Pay by Mobikwik"
+        android:textColor="@color/black"
+        android:textSize="@dimen/sp15" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dph1"
+        android:background="@color/darkGreen"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tv_cash"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:padding="@dimen/dph10"
+        android:text="Pay by Cash"
+        android:textColor="@color/black"
+        android:textSize="@dimen/sp15" />
+
+
+</LinearLayout>

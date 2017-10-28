@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dph50"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/dph5"
+        android:paddingLeft="@dimen/dpw5"
+        android:paddingRight="@dimen/dpw5"
+        android:paddingTop="@dimen/dph5"
+        android:weightSum="4">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="3">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="Vehicle Name" />
+
+                <TextView
+                    android:id="@+id/tv_delete_car"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/dpw10"
+                    android:drawableLeft="@mipmap/cross"
+                    android:gravity="center_vertical"
+                    android:text="Delete Vehicle"
+                    android:textColor="#FF0000" />
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/tv_car_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dpw10"
+                android:layout_weight="2"
+                android:enabled="false"
+                android:textAllCaps="true"
+                android:textColor="@color/c323232"
+                android:textSize="@dimen/sp14" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.70dp"
+        android:background="@color/black" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dph50"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/dph5"
+        android:paddingLeft="@dimen/dpw5"
+        android:paddingRight="@dimen/dpw5"
+        android:paddingTop="@dimen/dph5"
+        android:weightSum="4">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:text="Vehicle Number" />
+
+            <TextView
+                android:id="@+id/tv_car_num"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginLeft="@dimen/dpw10"
+                android:layout_weight="2"
+                android:enabled="false"
+                android:textAllCaps="true"
+                android:textColor="@color/c323232"
+                android:textSize="@dimen/sp14" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.70dp"
+        android:background="@color/black" />
+</LinearLayout>

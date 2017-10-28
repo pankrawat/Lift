@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeParent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_background"
+    tools:context=".activity.MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txt_dont"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/dph15"
+        android:layout_marginLeft="@dimen/dpw30"
+        android:layout_marginRight="@dimen/dpw30"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/facebook"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dph35"
+            android:layout_gravity="center"
+            android:background="@mipmap/fb"
+            android:paddingLeft="@dimen/dpw30"
+            android:text="Sign in with Facebook"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            fontPath="@string/font_bold"
+            android:textSize="@dimen/sp14"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/linkedin"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dph35"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/dph10"
+            android:background="@mipmap/in"
+            android:paddingLeft="@dimen/dpw20"
+            fontPath="@string/font_bold"
+            android:text="Sign in with Linkedin"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp14"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txt_dont"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/dph30"
+        android:background="@drawable/white_bottom_line"
+        fontPath="@string/font_bold"
+        android:text="Don't have facebook/Linkedin?"
+        android:textColor="@color/white"
+        android:textSize="@dimen/sp14"
+        android:textStyle="bold" />
+
+</RelativeLayout>

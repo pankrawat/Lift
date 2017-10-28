@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="@dimen/dpw100"
+        android:layout_height="@dimen/dph35"
+        android:layout_below="@+id/tv_change_mobile"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/dph15"
+        android:background="@drawable/rounded_corner_2"
+        android:text="Submit"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="@dimen/sp14" />
+
+</LinearLayout>

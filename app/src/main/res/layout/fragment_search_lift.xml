@@ -1,0 +1,400 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linear_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dph40"
+        android:background="@color/darkGreen">
+
+        <RelativeLayout
+            android:id="@+id/rl_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:paddingBottom="@dimen/dph10"
+                android:paddingLeft="@dimen/dpw10"
+                android:paddingRight="@dimen/dpw10"
+                android:paddingTop="@dimen/dph10"
+                android:src="@mipmap/back" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_header"
+            fontPath="@string/font_bold"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/dpw50"
+            android:layout_marginRight="@dimen/dpw50"
+            android:gravity="center"
+            android:text="Lift List"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp20" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/screenshot"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dph40"
+            android:background="@color/black1"
+            android:orientation="horizontal"
+            android:paddingTop="@dimen/dph5">
+
+            <TextView
+                android:id="@+id/tv_time"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:drawableTop="@mipmap/time"
+                android:gravity="center"
+                android:paddingLeft="@dimen/dpw10"
+                android:paddingRight="@dimen/dpw10"
+                android:text="Time"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp11" />
+
+            <View
+                android:layout_width="@dimen/dpw1"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/tv_price"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:drawableTop="@mipmap/rupeee"
+                android:gravity="center"
+                android:paddingLeft="@dimen/dpw10"
+                android:paddingRight="@dimen/dpw10"
+                android:text="Price"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp11" />
+
+            <View
+                android:layout_width="@dimen/dpw1"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/tv_route_match"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:drawableTop="@mipmap/tracker"
+                android:gravity="center"
+                android:paddingLeft="@dimen/dpw10"
+                android:paddingRight="@dimen/dpw10"
+                android:text="Route Match"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp11" />
+
+            <View
+                android:layout_width="@dimen/dpw1"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:paddingBottom="@dimen/dph5"
+                android:paddingLeft="@dimen/dpw5"
+                android:paddingRight="@dimen/dpw5"
+                android:paddingTop="@dimen/dph5"
+                android:src="@mipmap/menu" />
+
+            <View
+                android:layout_width="@dimen/dpw1"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_marginBottom="@dimen/dph5"
+                android:layout_marginRight="@dimen/dpw5"
+                android:layout_marginTop="@dimen/dph5"
+                android:background="#FFFFFF" />
+
+
+            <TextView
+                android:id="@+id/tv_filter"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:drawablePadding="@dimen/dpw5"
+                android:drawableRight="@mipmap/warrow"
+                android:gravity="center"
+                android:paddingRight="@dimen/dpw10"
+                android:text="Filter"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp11" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recycler_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white" />
+
+            <LinearLayout
+                android:id="@+id/ll_filter"
+                android:layout_width="@dimen/dpw180"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/tv_gender"
+                    fontPath="@string/font_bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dph25"
+                    android:drawableRight="@mipmap/forward_arrow"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="@dimen/dpw15"
+                    android:paddingRight="@dimen/dph15"
+                    android:clickable="true"
+                    android:text="Sex"
+                    android:textSize="@dimen/sp14"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dpw1"
+                    android:background="@color/black1" />
+
+                <LinearLayout
+                    android:id="@+id/ll_gender"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:id="@+id/tv_male"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/dph20"
+                        android:background="@color/ceaefeb"
+                        android:drawableRight="@mipmap/unchecked_checkbox"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="@dimen/dpw15"
+                        android:paddingRight="@dimen/dph15"
+                        android:text="Male"
+                        android:textSize="@dimen/sp12" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/dpw0.5"
+                        android:background="@color/black1" />
+
+                    <TextView
+                        android:id="@+id/tv_female"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/dph20"
+                        android:background="@color/ceaefeb"
+                        android:drawableRight="@mipmap/unchecked_checkbox"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="@dimen/dpw15"
+                        android:paddingRight="@dimen/dph15"
+                        android:text="Female"
+                        android:textSize="@dimen/sp12" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/dpw0.5"
+                        android:background="@color/black1" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tv_vehicle_type"
+                    fontPath="@string/font_bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dph25"
+                    android:drawableRight="@mipmap/forward_arrow"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="@dimen/dpw15"
+                    android:paddingRight="@dimen/dph15"
+                    android:text="Vehicle Type"
+                    android:textSize="@dimen/sp14"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dpw1"
+                    android:background="@color/black1" />
+
+                <LinearLayout
+                    android:id="@+id/ll_vehicle_type"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:id="@+id/tv_2_wheeler"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/dph20"
+                        android:background="@color/ceaefeb"
+                        android:drawableRight="@mipmap/unchecked_checkbox"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="@dimen/dpw15"
+                        android:paddingRight="@dimen/dph15"
+                        android:text="2 Wheeler"
+                        android:textSize="@dimen/sp12" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/dpw0.5"
+                        android:background="@color/black1" />
+
+                    <TextView
+                        android:id="@+id/tv_3_wheeler"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/dph20"
+                        android:background="@color/ceaefeb"
+                        android:drawableRight="@mipmap/unchecked_checkbox"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="@dimen/dpw15"
+                        android:paddingRight="@dimen/dph15"
+                        android:text="3 Wheeler"
+                        android:textSize="@dimen/sp12" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/dpw0.5"
+                        android:background="@color/black1" />
+
+                    <TextView
+                        android:id="@+id/tv_4_wheeler"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/dph20"
+                        android:background="@color/ceaefeb"
+                        android:drawableRight="@mipmap/unchecked_checkbox"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="@dimen/dpw15"
+                        android:paddingRight="@dimen/dph15"
+                        android:text="4 Wheeler"
+                        android:textSize="@dimen/sp12" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/dpw0.5"
+                        android:background="@color/black1" />
+                </LinearLayout>
+
+                <TextView
+                    android:visibility="visible"
+                    android:id="@+id/tv_reset"
+                    fontPath="@string/font_bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dph25"
+                    android:gravity="center"
+                    android:paddingLeft="@dimen/dpw15"
+                    android:paddingRight="@dimen/dph15"
+                    android:text="Reset"
+                    android:textSize="@dimen/sp14"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:visibility="gone"
+                    android:id="@+id/tv_ownership_type"
+                    fontPath="@string/font_bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dph25"
+                    android:drawableRight="@mipmap/forward_arrow"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="@dimen/dpw15"
+                    android:paddingRight="@dimen/dph15"
+                    android:text="Ownership"
+                    android:textSize="@dimen/sp14"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dpw1"
+                    android:background="@color/black1" />
+
+                <LinearLayout
+                    android:id="@+id/ll_ownership_type"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:id="@+id/tv_private"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/dph20"
+                        android:background="@color/ceaefeb"
+                        android:drawableRight="@mipmap/unchecked_checkbox"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="@dimen/dpw15"
+                        android:paddingRight="@dimen/dph15"
+                        android:text="Private"
+                        android:textSize="@dimen/sp12" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/dpw0.5"
+                        android:background="@color/black1" />
+
+                    <TextView
+                        android:id="@+id/tv_commercial"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/dph20"
+                        android:background="@color/ceaefeb"
+                        android:drawableRight="@mipmap/unchecked_checkbox"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="@dimen/dpw15"
+                        android:paddingRight="@dimen/dph15"
+                        android:text="Commercial"
+                        android:textSize="@dimen/sp12" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/dpw0.5"
+                        android:background="@color/black1" />
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/tv_done"
+                    fontPath="@string/font_bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dph25"
+                    android:gravity="center"
+                    android:paddingLeft="@dimen/dpw15"
+                    android:paddingRight="@dimen/dph15"
+                    android:text="Done"
+                    android:textSize="@dimen/sp14"
+                    android:textStyle="bold" />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dpw0.5"
+                    android:background="@color/black1" />
+            </LinearLayout>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
+

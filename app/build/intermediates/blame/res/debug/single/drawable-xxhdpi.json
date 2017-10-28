@@ -1,0 +1,394 @@
+[
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\bubble_shadow.9.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\exploded-aar\\com.google.maps.android\\android-maps-utils\\0.4\\res\\drawable-xxhdpi\\bubble_shadow.9.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\powered_by_google_dark.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-location\\8.4.0\\res\\drawable-xxhdpi\\powered_by_google_dark.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_google_signin_btn_text_dark_disabled.9.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xxhdpi\\common_google_signin_btn_text_dark_disabled.9.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_menu_manage.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/build/generated/res/pngs/debug/drawable-xxhdpi/ic_menu_manage.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\places_ic_search.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-location\\8.4.0\\res\\drawable-xxhdpi\\places_ic_search.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_plus_signin_btn_text_dark_disabled.9.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xxhdpi\\common_plus_signin_btn_text_dark_disabled.9.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/drawable-xxhdpi/common_plus_signin_btn_text_dark_normal.9.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-xxhdpi/common_plus_signin_btn_text_dark_normal.9.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/drawable-xxhdpi/common_google_signin_btn_text_light_normal.9.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-xxhdpi/common_google_signin_btn_text_light_normal.9.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/drawable-xxhdpi/common_google_signin_btn_text_dark_pressed.9.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-xxhdpi/common_google_signin_btn_text_dark_pressed.9.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_menu_slideshow.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/build/generated/res/pngs/debug/drawable-xxhdpi/ic_menu_slideshow.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\powered_by_google_light.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-location\\8.4.0\\res\\drawable-xxhdpi\\powered_by_google_light.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/drawable-xxhdpi/common_google_signin_btn_icon_light_normal.9.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-xxhdpi/common_google_signin_btn_icon_light_normal.9.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_menu_slideshow.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_menu_slideshow.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_google_signin_btn_text_dark_normal.9.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xxhdpi\\common_google_signin_btn_text_dark_normal.9.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_plusone_standard_off_client.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/8.4.0/res/drawable-xxhdpi/ic_plusone_standard_off_client.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/drawable-xxhdpi/common_plus_signin_btn_icon_dark_disabled.9.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-xxhdpi/common_plus_signin_btn_icon_dark_disabled.9.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_menu_gallery.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/build/generated/res/pngs/debug/drawable-xxhdpi/ic_menu_gallery.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/drawable-xxhdpi/common_google_signin_btn_icon_dark_pressed.9.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-xxhdpi/common_google_signin_btn_icon_dark_pressed.9.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/drawable-xxhdpi/places_ic_search.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.4.0/res/drawable-xxhdpi/places_ic_search.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\places_ic_clear.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-location\\8.4.0\\res\\drawable-xxhdpi\\places_ic_clear.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/drawable-xxhdpi/common_google_signin_btn_text_light_disabled.9.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-xxhdpi/common_google_signin_btn_text_light_disabled.9.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/drawable-xxhdpi/common_plus_signin_btn_icon_dark_pressed.9.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-xxhdpi/common_plus_signin_btn_icon_dark_pressed.9.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_plus_signin_btn_text_light_disabled.9.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xxhdpi\\common_plus_signin_btn_text_light_disabled.9.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/drawable-xxhdpi/common_google_signin_btn_icon_light_pressed.9.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-xxhdpi/common_google_signin_btn_icon_light_pressed.9.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/drawable-xxhdpi/common_plus_signin_btn_text_light_focused.9.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-xxhdpi/common_plus_signin_btn_text_light_focused.9.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_menu_send.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_menu_send.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_plus_signin_btn_text_light_focused.9.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xxhdpi\\common_plus_signin_btn_text_light_focused.9.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/drawable-xxhdpi/common_plus_signin_btn_text_dark_pressed.9.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-xxhdpi/common_plus_signin_btn_text_dark_pressed.9.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_plus_signin_btn_icon_dark_disabled.9.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xxhdpi\\common_plus_signin_btn_icon_dark_disabled.9.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/drawable-xxhdpi/common_google_signin_btn_icon_light_disabled.9.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-xxhdpi/common_google_signin_btn_icon_light_disabled.9.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_plusone_small_off_client.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-plus\\8.4.0\\res\\drawable-xxhdpi\\ic_plusone_small_off_client.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_menu_manage.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_menu_manage.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_plus_signin_btn_icon_dark_pressed.9.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xxhdpi\\common_plus_signin_btn_icon_dark_pressed.9.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_plusone_tall_off_client.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/8.4.0/res/drawable-xxhdpi/ic_plusone_tall_off_client.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/drawable-xxhdpi/common_google_signin_btn_text_dark_normal.9.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-xxhdpi/common_google_signin_btn_text_dark_normal.9.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/drawable-xxhdpi/powered_by_google_dark.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.4.0/res/drawable-xxhdpi/powered_by_google_dark.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/drawable-xxhdpi/common_plus_signin_btn_icon_dark_focused.9.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-xxhdpi/common_plus_signin_btn_icon_dark_focused.9.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/drawable-xxhdpi/common_plus_signin_btn_text_light_normal.9.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-xxhdpi/common_plus_signin_btn_text_light_normal.9.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/drawable-xxhdpi/common_google_signin_btn_text_dark_focused.9.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-xxhdpi/common_google_signin_btn_text_dark_focused.9.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/drawable-xxhdpi/powered_by_google_light.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.4.0/res/drawable-xxhdpi/powered_by_google_light.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_plus_signin_btn_icon_light_disabled.9.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xxhdpi\\common_plus_signin_btn_icon_light_disabled.9.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_google_signin_btn_icon_dark_pressed.9.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xxhdpi\\common_google_signin_btn_icon_dark_pressed.9.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_menu_camera.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/build/generated/res/pngs/debug/drawable-xxhdpi/ic_menu_camera.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_google_signin_btn_icon_dark_disabled.9.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xxhdpi\\common_google_signin_btn_icon_dark_disabled.9.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_google_signin_btn_text_light_focused.9.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xxhdpi\\common_google_signin_btn_text_light_focused.9.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_google_signin_btn_text_light_disabled.9.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xxhdpi\\common_google_signin_btn_text_light_disabled.9.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/drawable-xxhdpi/common_google_signin_btn_text_light_pressed.9.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-xxhdpi/common_google_signin_btn_text_light_pressed.9.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/drawable-xxhdpi/common_google_signin_btn_text_dark_disabled.9.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-xxhdpi/common_google_signin_btn_text_dark_disabled.9.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_plusone_small_off_client.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/8.4.0/res/drawable-xxhdpi/ic_plusone_small_off_client.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/drawable-xxhdpi/common_plus_signin_btn_text_light_disabled.9.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-xxhdpi/common_plus_signin_btn_text_light_disabled.9.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/drawable-xxhdpi/common_google_signin_btn_icon_dark_normal.9.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-xxhdpi/common_google_signin_btn_icon_dark_normal.9.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_full_open_on_phone.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xxhdpi\\common_full_open_on_phone.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/drawable-xxhdpi/common_plus_signin_btn_icon_light_focused.9.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-xxhdpi/common_plus_signin_btn_icon_light_focused.9.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_google_signin_btn_icon_dark_focused.9.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xxhdpi\\common_google_signin_btn_icon_dark_focused.9.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_plusone_standard_off_client.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-plus\\8.4.0\\res\\drawable-xxhdpi\\ic_plusone_standard_off_client.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/drawable-xxhdpi/places_ic_clear.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.4.0/res/drawable-xxhdpi/places_ic_clear.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_google_signin_btn_text_light_normal.9.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xxhdpi\\common_google_signin_btn_text_light_normal.9.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_plus_signin_btn_text_dark_focused.9.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xxhdpi\\common_plus_signin_btn_text_dark_focused.9.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\bubble_mask.9.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\exploded-aar\\com.google.maps.android\\android-maps-utils\\0.4\\res\\drawable-xxhdpi\\bubble_mask.9.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_google_signin_btn_icon_light_pressed.9.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xxhdpi\\common_google_signin_btn_icon_light_pressed.9.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_menu_gallery.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_menu_gallery.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_menu_share.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/build/generated/res/pngs/debug/drawable-xxhdpi/ic_menu_share.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_plus_signin_btn_icon_light_pressed.9.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xxhdpi\\common_plus_signin_btn_icon_light_pressed.9.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/drawable-xxhdpi/bubble_mask.9.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/exploded-aar/com.google.maps.android/android-maps-utils/0.4/res/drawable-xxhdpi/bubble_mask.9.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_google_signin_btn_icon_light_normal.9.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xxhdpi\\common_google_signin_btn_icon_light_normal.9.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_plus_signin_btn_icon_dark_focused.9.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xxhdpi\\common_plus_signin_btn_icon_dark_focused.9.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_google_signin_btn_text_dark_focused.9.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xxhdpi\\common_google_signin_btn_text_dark_focused.9.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_plusone_medium_off_client.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/8.4.0/res/drawable-xxhdpi/ic_plusone_medium_off_client.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_plus_signin_btn_icon_light_focused.9.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xxhdpi\\common_plus_signin_btn_icon_light_focused.9.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_menu_send.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/build/generated/res/pngs/debug/drawable-xxhdpi/ic_menu_send.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_google_signin_btn_icon_dark_normal.9.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xxhdpi\\common_google_signin_btn_icon_dark_normal.9.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_google_signin_btn_icon_light_focused.9.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xxhdpi\\common_google_signin_btn_icon_light_focused.9.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/drawable-xxhdpi/common_google_signin_btn_icon_dark_disabled.9.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-xxhdpi/common_google_signin_btn_icon_dark_disabled.9.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_google_signin_btn_text_light_pressed.9.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xxhdpi\\common_google_signin_btn_text_light_pressed.9.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_google_signin_btn_text_dark_pressed.9.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xxhdpi\\common_google_signin_btn_text_dark_pressed.9.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_plus_signin_btn_icon_light_normal.9.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xxhdpi\\common_plus_signin_btn_icon_light_normal.9.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_plus_signin_btn_text_light_pressed.9.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xxhdpi\\common_plus_signin_btn_text_light_pressed.9.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/drawable-xxhdpi/common_plus_signin_btn_icon_dark_normal.9.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-xxhdpi/common_plus_signin_btn_icon_dark_normal.9.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_plus_signin_btn_text_light_normal.9.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xxhdpi\\common_plus_signin_btn_text_light_normal.9.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/drawable-xxhdpi/common_google_signin_btn_text_light_focused.9.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-xxhdpi/common_google_signin_btn_text_light_focused.9.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/drawable-xxhdpi/common_plus_signin_btn_icon_light_pressed.9.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-xxhdpi/common_plus_signin_btn_icon_light_pressed.9.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_google_signin_btn_icon_light_disabled.9.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xxhdpi\\common_google_signin_btn_icon_light_disabled.9.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_plus_signin_btn_icon_dark_normal.9.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xxhdpi\\common_plus_signin_btn_icon_dark_normal.9.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/drawable-xxhdpi/common_plus_signin_btn_icon_light_disabled.9.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-xxhdpi/common_plus_signin_btn_icon_light_disabled.9.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_plusone_tall_off_client.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-plus\\8.4.0\\res\\drawable-xxhdpi\\ic_plusone_tall_off_client.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/drawable-xxhdpi/common_plus_signin_btn_text_dark_focused.9.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-xxhdpi/common_plus_signin_btn_text_dark_focused.9.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/drawable-xxhdpi/bubble_shadow.9.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/exploded-aar/com.google.maps.android/android-maps-utils/0.4/res/drawable-xxhdpi/bubble_shadow.9.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/drawable-xxhdpi/common_plus_signin_btn_icon_light_normal.9.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-xxhdpi/common_plus_signin_btn_icon_light_normal.9.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/drawable-xxhdpi/common_full_open_on_phone.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-xxhdpi/common_full_open_on_phone.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_menu_camera.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_menu_camera.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/drawable-xxhdpi/common_plus_signin_btn_text_light_pressed.9.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-xxhdpi/common_plus_signin_btn_text_light_pressed.9.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_plus_signin_btn_text_dark_pressed.9.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xxhdpi\\common_plus_signin_btn_text_dark_pressed.9.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/drawable-xxhdpi/common_google_signin_btn_icon_light_focused.9.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-xxhdpi/common_google_signin_btn_icon_light_focused.9.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/drawable-xxhdpi/common_google_signin_btn_icon_dark_focused.9.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-xxhdpi/common_google_signin_btn_icon_dark_focused.9.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_plusone_medium_off_client.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-plus\\8.4.0\\res\\drawable-xxhdpi\\ic_plusone_medium_off_client.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_menu_share.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_menu_share.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/drawable-xxhdpi/common_plus_signin_btn_text_dark_disabled.9.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-xxhdpi/common_plus_signin_btn_text_dark_disabled.9.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_plus_signin_btn_text_dark_normal.9.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xxhdpi\\common_plus_signin_btn_text_dark_normal.9.png"
+    }
+]

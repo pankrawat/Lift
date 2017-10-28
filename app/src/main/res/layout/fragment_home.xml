@@ -1,0 +1,145 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context="com.liftindia.app.fragment.HomeFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dph40"
+        android:background="@color/darkGreen">
+
+        <RelativeLayout
+            android:id="@+id/drawerIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:paddingBottom="@dimen/dph10"
+                android:paddingLeft="@dimen/dpw10"
+                android:paddingRight="@dimen/dpw10"
+                android:paddingTop="@dimen/dph10"
+                android:src="@mipmap/menu" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_header"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/dpw60"
+            android:layout_marginRight="@dimen/dpw60"
+            android:gravity="center"
+            android:text="Lift India"
+            fontPath="@string/font_bold"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp20" />
+
+        <!--<TextView-->
+        <!--android:id="@+id/tv_end_ride"-->
+        <!--android:layout_width="50dp"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_marginRight="@dimen/dpw10"-->
+        <!--android:gravity="center"-->
+        <!--android:background="@mipmap/end_ride" />-->
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:id="@+id/mapPlace"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/gradient_top">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:src="@mipmap/pin_white" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/gradient_bottom">
+
+                <TextView
+                    fontPath="@string/font_bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:text="Current Location"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/sp24"
+                    android:textStyle="bold"
+                    android:visibility="gone" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/iv_current_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="false"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="false"
+            android:layout_marginRight="@dimen/dpw25"
+            android:layout_marginTop="@dimen/dph20"
+            android:src="@mipmap/locate"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/dph40"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:id="@+id/iv_offer_lift"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dpw20"
+                android:layout_marginRight="@dimen/dpw10"
+                android:layout_weight="1"
+                android:background="@mipmap/offer" />
+
+            <ImageView
+                android:id="@+id/iv_request_lift"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dpw10"
+                android:layout_marginRight="@dimen/dpw20"
+                android:layout_weight="1"
+                android:background="@mipmap/req" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

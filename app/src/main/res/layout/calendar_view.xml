@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dph30"
+        android:background="@color/white"
+        android:gravity="center"
+        android:text="Tap to select multiple dates"
+        android:textColor="@color/darkGreen"
+        android:textSize="@dimen/sp14" />
+
+    <RelativeLayout
+        android:id="@+id/calendar_title_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/header"
+        android:background="@color/white"
+        android:paddingBottom="@dimen/dpw12"
+        android:paddingLeft="@dimen/dpw25"
+        android:paddingRight="@dimen/dpw25"
+        android:paddingTop="@dimen/dpw12"
+
+        >
+
+        <Button
+            android:id="@+id/calendar_left_arrow"
+            android:layout_width="@dimen/dpw25"
+            android:layout_height="@dimen/dpw25"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="@mipmap/arrow_dark_left" />
+
+        <TextView
+            android:id="@+id/calendar_month_year_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="6dp"
+            android:layout_toLeftOf="@+id/calendar_right_arrow"
+            android:layout_toRightOf="@+id/calendar_left_arrow"
+            android:gravity="center"
+            android:textAllCaps="true"
+            android:textIsSelectable="true"
+            android:textSize="@dimen/sp18" />
+
+        <Button
+            android:id="@+id/calendar_right_arrow"
+            android:layout_width="@dimen/dpw25"
+            android:layout_height="@dimen/dpw25"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@mipmap/arrow_dark_right" />
+    </RelativeLayout>
+
+    <GridView
+        android:id="@+id/weekday_gridview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/calendar_title_view"
+        android:layout_marginTop="5dp"
+        android:numColumns="7"
+        android:stretchMode="columnWidth" />
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/months_infinite_pager"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dph210"
+        android:layout_below="@+id/weekday_gridview"
+        android:layout_marginTop="2dp"
+        android:background="@color/white" />
+
+
+    <Button
+        android:id="@+id/okButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dph280"
+        android:background="@color/colorPrimary"
+        android:text="@string/ok"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/sp18" />
+
+
+</RelativeLayout>

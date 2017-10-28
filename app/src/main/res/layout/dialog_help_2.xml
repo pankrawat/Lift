@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dph10"
+        android:layout_marginBottom="@dimen/dph5"
+        android:paddingLeft="@dimen/dpw25"
+        android:paddingRight="@dimen/dpw25"
+        android:textSize="@dimen/sp18"
+        android:textColor="@color/colorPrimary"
+        android:text="Emergency Alert"/>
+
+    <TextView
+        android:id="@+id/tv_msg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dph10"
+        android:layout_marginBottom="@dimen/dph5"
+        android:paddingLeft="@dimen/dpw25"
+        android:paddingRight="@dimen/dpw25"
+        android:textSize="@dimen/sp16"
+        android:lineSpacingExtra="5dp"
+        android:text="Call Emergency Contact"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="@dimen/dpw15"
+        android:layout_marginRight="@dimen/dpw15"
+        android:layout_marginTop="@dimen/dph10"
+        android:layout_marginBottom="@dimen/dph10"
+        android:background="@color/colorPrimary" />
+
+    <TextView
+        android:id="@+id/tv_contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@mipmap/call"
+        android:gravity="center_vertical"
+        android:drawablePadding="@dimen/dpw5"
+        android:paddingLeft="@dimen/dpw25"
+        android:textSize="@dimen/sp16"
+        android:text="Call Emergency Contact"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="@dimen/dpw15"
+        android:layout_marginRight="@dimen/dpw15"
+        android:layout_marginTop="@dimen/dph10"
+        android:layout_marginBottom="@dimen/dph10"
+        android:background="@color/colorPrimary" />
+
+    <TextView
+        android:id="@+id/tv_police"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@mipmap/call"
+        android:gravity="center_vertical"
+        android:drawablePadding="@dimen/dpw5"
+        android:paddingLeft="@dimen/dpw25"
+        android:textSize="@dimen/sp16"
+        android:text="Call Police"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="@dimen/dpw15"
+        android:layout_marginRight="@dimen/dpw15"
+        android:layout_marginTop="@dimen/dph15"
+        android:background="@android:color/transparent" />
+</LinearLayout>

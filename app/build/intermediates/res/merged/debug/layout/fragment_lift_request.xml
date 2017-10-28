@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativeParent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rl_header"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dph40"
+        android:background="@android:color/transparent">
+
+        <RelativeLayout
+            android:id="@+id/drawerIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_header"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/dpw50"
+            android:layout_marginRight="@dimen/dpw50"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp20" />
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/mapPlace"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/details"
+        android:layout_marginBottom="@dimen/dphneg50" />
+
+    <FrameLayout
+        android:id="@+id/details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dph50"
+                android:background="#fff">
+
+                <LinearLayout
+                    android:id="@+id/ll"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dpw60"
+                    android:orientation="vertical"
+                    android:paddingLeft="@dimen/dpw10">
+
+                    <TextView
+                        android:id="@+id/tv_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:layout_marginBottom="@dimen/dph3"
+                        android:text="Abhi"
+                        android:textColor="@color/lightGreen"
+                        android:textSize="@dimen/sp12" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tv_age"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="23 Y"
+                            android:textSize="@dimen/sp11" />
+
+                        <View
+                            android:layout_width="@dimen/dpw0.5"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="@dimen/dpw5"
+                            android:layout_marginRight="@dimen/dpw5"
+                            android:background="@color/black"
+                            android:minHeight="50dp" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <RatingBar
+                                android:id="@+id/ratingBar"
+                                style="@style/GreenRatingBar"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:isIndicator="true"
+                                android:numStars="5"
+                                android:rating="0"
+                                android:stepSize="0.1" />
+
+                            <TextView
+                                android:id="@+id/tv_reviews"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start|center"
+                                android:textSize="@dimen/sp11" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/tv_designation"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dph8"
+                        android:singleLine="true"
+                        android:text="Assistant Manager - Tata Consultant Pvt. Ltd."
+                        android:textSize="@dimen/sp12" />
+
+                    <TextView
+                        android:id="@+id/tv_connections"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginTop="@dimen/dph5"
+                        android:text="Connections- 50"
+
+                        android:textIsSelectable="false"
+                        android:textSize="@dimen/sp12" />
+
+                    <TextView
+                        android:id="@+id/tv_fb_friends"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dph5"
+                        android:text="Facebook Friend- 90"
+                        android:textSize="@dimen/sp12" />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btn_full_profile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/dph30"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/dpw10"
+                    android:layout_marginTop="@dimen/dph5"
+                    android:background="@drawable/change_button_shape"
+                    android:paddingLeft="@dimen/dpw5"
+                    android:paddingRight="@dimen/dpw5"
+                    android:text="Full Profile"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/sp12" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+                <View
+
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dph1"
+                    android:layout_marginLeft="@dimen/dpw15"
+                    android:layout_marginRight="@dimen/dpw15"
+                    android:layout_marginTop="@dimen/dph10"
+                    android:background="#b1aeae" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/dpw15"
+                        android:layout_weight=".5"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/tv_pickup"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/dph5"
+                                android:singleLine="true"
+                                android:text="Pickup Point - "
+                                android:textColor="#282727"
+                                android:textSize="@dimen/sp12"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/tv_pickup_location"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/dph5"
+                                android:layout_weight="1"
+                                android:ellipsize="marquee"
+                                android:marqueeRepeatLimit="marquee_forever"
+                                android:scrollHorizontally="true"
+                                android:singleLine="true"
+                                android:text="Hanuman Mandir "
+                                android:textColor="#282727"
+                                android:textSize="@dimen/sp12" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/tv_drop"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:singleLine="true"
+                                android:text="Drop Point - "
+                                android:textColor="#282727"
+                                android:textSize="@dimen/sp12"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/tv_drop_location"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:ellipsize="marquee"
+                                android:marqueeRepeatLimit="marquee_forever"
+                                android:scrollHorizontally="true"
+                                android:singleLine="true"
+                                android:text="Hanuman Mandir"
+                                android:textColor="#282727"
+                                android:textSize="@dimen/sp12" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/iv_msg"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="@dimen/dpw20"
+                        android:layout_marginTop="@dimen/dph10"
+                        android:src="@mipmap/msg" />
+
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dph1"
+                    android:layout_marginLeft="@dimen/dpw15"
+                    android:layout_marginRight="@dimen/dpw15"
+                    android:layout_marginTop="@dimen/dph5"
+                    android:background="#b1aeae" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/dph10"
+                    android:layout_marginLeft="@dimen/dpw15"
+                    android:layout_marginRight="@dimen/dpw15"
+                    android:layout_marginTop="@dimen/dph10"
+                    android:orientation="horizontal"
+                    android:weightSum="3">
+
+
+                    <Button
+                        android:id="@+id/btn_reject"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/dph30"
+                        android:layout_marginRight="@dimen/dpw15"
+                        android:layout_weight="1"
+                        android:background="@drawable/change_button_shape"
+                        android:text="Reject"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/sp12" />
+
+                    <Button
+                        android:id="@+id/btn_accept"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/dph30"
+                        android:layout_weight="1"
+                        android:background="@drawable/button_shape"
+                        android:text="Accept"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/sp12" />
+
+
+                    <Button
+                        android:id="@+id/btn_call"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/dph30"
+                        android:layout_marginLeft="@dimen/dpw15"
+                        android:layout_weight="1"
+                        android:background="@drawable/blue_button"
+                        android:text="Call"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/sp12" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <com.liftindia.app.specialview.CircleImageView
+            android:id="@+id/iv_profile"
+            android:layout_width="@dimen/dpw60"
+            android:layout_height="@dimen/dpw60"
+            android:layout_above="@+id/linear_child"
+            android:layout_alignTop="@+id/linear_child"
+            android:layout_marginLeft="@dimen/dpw10"
+            android:layout_marginTop="@dimen/dph10"
+            android:src="@mipmap/default_user" />
+
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/iv_current_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_below="@+id/rl_header"
+        android:layout_marginEnd="@dimen/dpw30"
+        android:layout_marginRight="@dimen/dpw30"
+        android:layout_marginTop="@dimen/dph85"
+        android:src="@mipmap/locate" />
+
+
+</RelativeLayout>

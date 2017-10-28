@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13\\design_layout_snackbar.xml",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.4.0\\res\\layout-sw600dp-v13\\design_layout_snackbar.xml"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13\\mdtp_date_picker_dialog.xml",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\exploded-aar\\com.wdullaer\\materialdatetimepicker\\2.5.0\\res\\layout-sw600dp-v13\\mdtp_date_picker_dialog.xml"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/layout-sw600dp-v13/mdtp_date_picker_dialog.xml",
+        "source": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/exploded-aar/com.wdullaer/materialdatetimepicker/2.5.0/res/layout-sw600dp-v13/mdtp_date_picker_dialog.xml"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/layout-sw600dp-v13/design_layout_snackbar.xml",
+        "source": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/exploded-aar/com.android.support/design/23.4.0/res/layout-sw600dp-v13/design_layout_snackbar.xml"
+    }
+]

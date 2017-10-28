@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\app_icon.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\src\\main\\res\\mipmap-xxxhdpi\\app_icon.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_launcher.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/app_icon.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/mipmap-xxxhdpi/app_icon.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    }
+]

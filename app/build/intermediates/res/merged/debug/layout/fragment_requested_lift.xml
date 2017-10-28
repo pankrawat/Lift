@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linear_layout"
+    android:background="@color/ce0e0e0"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ListView
+        android:id="@+id/list_requested"
+        android:background="@color/ce0e0e0"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/tv_msg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:paddingBottom="@dimen/dph15"
+        android:paddingLeft="@dimen/dpw15"
+        android:paddingRight="@dimen/dpw15"
+        android:paddingTop="@dimen/dph15"
+        android:text="You didn't request any lift."
+        android:textSize="@dimen/sp16"
+        android:visibility="gone" />
+</LinearLayout>

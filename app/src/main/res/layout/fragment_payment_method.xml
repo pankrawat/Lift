@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rl_header"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dph40"
+        android:background="@color/darkGreen">
+
+        <WebView
+            android:id="@+id/webView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"></WebView>
+
+        <RelativeLayout
+            android:id="@+id/drawerIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true">
+
+            <ImageView
+                android:id="@+id/arrowBack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:paddingBottom="@dimen/dph10"
+                android:paddingLeft="@dimen/dpw10"
+                android:paddingRight="@dimen/dpw10"
+                android:paddingTop="@dimen/dph10"
+                android:src="@mipmap/back" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_header"
+            fontPath="@string/font_bold"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dph40"
+            android:layout_marginLeft="@dimen/dpw40"
+            android:layout_marginRight="@dimen/dpw50"
+            android:gravity="center_vertical|center"
+            android:singleLine="true"
+            android:text="Select Payment Method"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp18" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/layout_rl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioGroup
+                android:id="@+id/method_radioGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dpw10"
+                android:layout_marginRight="@dimen/dpw10"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/debit_rdbtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dpw40"
+                    android:layout_marginTop="@dimen/dpw10"
+                    android:background="@drawable/border"
+                    android:paddingLeft="@dimen/dph10"
+                    android:text="Debit Card"
+                    android:textColor="@color/lightGreen"
+                    android:textSize="@dimen/dph12" />
+
+                <RadioButton
+                    android:id="@+id/credit_rdbtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dpw40"
+                    android:layout_marginTop="@dimen/dpw10"
+                    android:background="@drawable/border"
+                    android:paddingLeft="@dimen/dph10"
+                    android:text="Credit Card"
+                    android:textColor="@color/lightGreen"
+                    android:textSize="@dimen/dph12" />
+
+                <RadioButton
+                    android:id="@+id/net_rdbtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dpw40"
+                    android:layout_marginTop="@dimen/dpw10"
+                    android:background="@drawable/border"
+                    android:paddingLeft="@dimen/dph10"
+                    android:text="Net Banking"
+                    android:textColor="@color/lightGreen"
+                    android:textSize="@dimen/dph12" />
+
+                <RadioButton
+                    android:id="@+id/saved_card_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dpw40"
+                    android:layout_marginTop="@dimen/dpw10"
+                    android:background="@drawable/border"
+                    android:paddingLeft="@dimen/dph10"
+                    android:text="Saved Cards"
+                    android:textColor="@color/lightGreen"
+                    android:textSize="@dimen/dph12"
+                    android:visibility="gone" />
+            </RadioGroup>
+
+            <LinearLayout
+                android:id="@+id/payment_details_net_ll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/method_radioGroup"
+                android:layout_marginBottom="@dimen/dpw10"
+                android:layout_marginLeft="@dimen/dpw10"
+                android:layout_marginRight="@dimen/dpw10"
+                android:layout_marginTop="@dimen/dpw10"
+                android:background="@drawable/border"
+                android:orientation="vertical"
+                android:padding="@dimen/dph5"
+                android:visibility="gone">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/dph10"
+                    android:layout_marginLeft="@dimen/dph15"
+                    android:layout_marginTop="@dimen/dph15">
+
+                    <TextView
+                        android:id="@+id/net_amount_txt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Total amount to be paid:"
+                        android:textSize="@dimen/dph10" />
+
+                    <TextView
+                        android:id="@+id/ruppes_txt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/dpw10"
+                        android:layout_toRightOf="@+id/net_amount_txt"
+                        android:text="₹"
+                        android:textSize="@dimen/dph10" />
+
+                    <TextView
+                        android:id="@+id/netamount_txt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/dpw10"
+                        android:layout_toRightOf="@+id/ruppes_txt"
+                        android:text=""
+                        android:textSize="@dimen/dph10" />
+
+                </RelativeLayout>
+
+                <Spinner
+                    android:id="@+id/bank_seletor_spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dpw10"
+                    android:layout_marginRight="@dimen/dpw10"
+                    android:layout_marginTop="@dimen/dpw10" />
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/payment_details_saved_ll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/payment_details_debit_ll"
+                android:layout_marginBottom="@dimen/dpw10"
+                android:layout_marginLeft="@dimen/dpw10"
+                android:layout_marginRight="@dimen/dpw10"
+                android:layout_marginTop="@dimen/dpw10"
+                android:background="@drawable/border"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/dph15"
+                android:visibility="gone">
+
+                <ListView
+                    android:id="@+id/savedCard_listView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dpw20"></ListView>
+
+            </RelativeLayout>
+
+
+            <LinearLayout
+                android:id="@+id/payment_details_debit_ll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/payment_details_net_ll"
+                android:layout_marginBottom="@dimen/dpw10"
+                android:layout_marginLeft="@dimen/dpw10"
+                android:layout_marginRight="@dimen/dpw10"
+                android:layout_marginTop="@dimen/dpw10"
+                android:background="@drawable/border"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/dph15"
+                android:visibility="gone">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dph15"
+                    android:layout_marginTop="@dimen/dph15">
+
+                    <TextView
+                        android:id="@+id/Total_amount_txt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Total amount to be paid:"
+                        android:textSize="@dimen/dph16" />
+
+                    <TextView
+                        android:id="@+id/ruppes"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/dpw14"
+                        android:layout_toRightOf="@+id/Total_amount_txt"
+                        android:text="₹"
+                        android:textSize="@dimen/dph16" />
+
+                    <TextView
+                        android:id="@+id/amount_txt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/dpw10"
+                        android:layout_toRightOf="@+id/ruppes"
+                        android:text=""
+                        android:textSize="@dimen/dph16" />
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dph15"
+                    android:layout_marginTop="@dimen/dph15">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:text="Card details:"
+                        android:textColor="@color/darkGreen"
+                        android:textSize="@dimen/dph16"
+                        android:textStyle="normal|bold" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dph15"
+                    android:layout_marginTop="@dimen/dph5">
+
+                    <TextView
+                        android:id="@+id/card_number_txt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/dph5"
+                        android:text="Card No."
+                        android:textSize="@dimen/dph12" />
+
+                    <EditText
+                        android:id="@+id/card_No_edit"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/dph30"
+                        android:layout_below="@+id/card_number_txt"
+                        android:layout_marginRight="@dimen/dph15"
+                        android:background="@drawable/border"
+                        android:ems="18"
+                        android:inputType="numberDecimal"
+                        android:maxLength="16"
+                        android:paddingLeft="@dimen/dph10"
+                        android:paddingRight="@dimen/dph10"
+                        android:textSize="@dimen/dph12" />
+                </RelativeLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dph15"
+                    android:layout_marginRight="@dimen/dph15"
+                    android:layout_marginTop="@dimen/dpw10"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="@dimen/dph0.5"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/dph12"
+                        android:layout_weight="1"
+                        android:paddingLeft="@dimen/dph12"
+                        android:text="Month"
+                        android:textSize="@dimen/dph12" />
+
+                    <TextView
+                        android:layout_width="@dimen/dph0.5"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/dph12"
+                        android:layout_weight="1"
+                        android:paddingLeft="@dimen/dph12"
+                        android:text="Year"
+                        android:textSize="@dimen/dph12" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/spineer2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dph15"
+                    android:layout_marginRight="@dimen/dph15"
+                    android:layout_marginTop="@dimen/dpw10"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <Spinner
+                        android:id="@+id/month_spinner"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="@dimen/dph12"
+                        android:layout_weight="1"
+                        android:textSize="@dimen/dph10"></Spinner>
+
+                    <Spinner
+                        android:id="@+id/year_spinner"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="@dimen/dph12"
+                        android:layout_weight="1"
+                        android:textSize="@dimen/dph10"></Spinner>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dph15"
+                    android:layout_marginTop="@dimen/dph15"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/ccv_txt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/dph10"
+                        android:text="CVV"
+                        android:textSize="@dimen/dph12" />
+
+                    <EditText
+                        android:id="@+id/ccv_no_edit"
+                        android:layout_width="@dimen/dph50"
+                        android:layout_height="@dimen/dph30"
+                        android:layout_below="@+id/ccv_no_txt"
+                        android:layout_marginRight="@dimen/dph15"
+                        android:background="@drawable/border"
+                        android:ems="18"
+                        android:inputType="numberPassword"
+                        android:maxLength="3"
+                        android:paddingLeft="@dimen/dph10"
+                        android:paddingRight="@dimen/dph10"
+                        android:textSize="@dimen/dph12" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/proceed_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/payment_details_saved_ll"
+                android:layout_gravity="center|bottom"
+                android:layout_marginBottom="@dimen/dpw10"
+                android:layout_marginLeft="@dimen/dpw10"
+                android:layout_marginRight="@dimen/dpw10"
+                android:layout_marginTop="@dimen/dpw10"
+                android:background="@drawable/rounded_corner_2"
+                android:gravity="center"
+                android:padding="@dimen/dpw10"
+                android:text="Proceed"
+                android:textColor="@color/white"
+                android:textSize="@dimen/dph14" />
+        </RelativeLayout>
+
+    </ScrollView>
+</LinearLayout>

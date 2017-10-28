@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/linearLayout"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/sharePage_background"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rl_header"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dph40"
+        android:background="@color/darkGreen">
+
+        <RelativeLayout
+            android:id="@+id/drawerIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true">
+
+            <ImageView
+                android:id="@+id/arrowBack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:paddingBottom="@dimen/dph10"
+                android:paddingLeft="@dimen/dpw10"
+                android:paddingRight="@dimen/dpw10"
+                android:paddingTop="@dimen/dph10"
+                android:src="@mipmap/back"/>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_header"
+            fontPath="@string/font_bold"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/dpw35"
+            android:layout_marginRight="@dimen/dpw50"
+            android:gravity="center"
+            android:text="Payments"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp20"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relative_logo_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dph60"
+        android:layout_below="@+id/rl_header"
+        android:gravity="bottom|center">
+
+        <ImageView
+            android:id="@+id/mobikwik_logo"
+            android:layout_width="@dimen/dph90"
+            android:layout_height="@dimen/dph30"
+            android:layout_centerVertical="true"
+            android:src="@drawable/mobikwik_logo"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/dpw10"
+            android:layout_toRightOf="@+id/mobikwik_logo"
+            android:paddingTop="@dimen/dpw8"
+            android:text="Balance"
+            android:textSize="@dimen/dph14"
+            android:textStyle=""/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relative_logo_layout"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dph10"
+            android:text="₹"
+            android:textColor="@color/lightGreen"
+            android:textSize="@dimen/dph25"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/mobikwik_balance_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dph10"
+            android:text=" 0"
+            android:textColor="@color/lightGreen"
+            android:textSize="@dimen/dph25"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dph10"
+            android:text="/-"
+            android:textColor="@color/lightGreen"
+            android:textSize="@dimen/dph25"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dpw1"
+        android:layout_marginLeft="@dimen/dph15"
+        android:layout_marginRight="@dimen/dph15"
+        android:layout_marginTop="@dimen/dph20"
+        android:background="@color/caldroid_darker_gray"/>
+
+    <EditText
+        android:id="@+id/et_amount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dph15"
+        android:layout_marginRight="@dimen/dph15"
+        android:layout_marginTop="@dimen/dpw40"
+        android:hint="Enter Amount"
+        android:inputType="numberDecimal"
+        android:minHeight="45dp"
+        android:paddingLeft="@dimen/dph10"
+        android:singleLine="true"
+        android:textColorHint="@color/caldroid_darker_gray"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dph15"
+        android:layout_marginRight="@dimen/dph15"
+        android:layout_marginTop="@dimen/dpw10"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <Button
+            android:id="@+id/add_100_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/dpw10"
+            android:layout_weight="1"
+            android:background="@drawable/button_shape_red"
+            android:text="+100"
+            android:textColor="@color/white"
+            android:textSize="@dimen/dph12"/>
+
+        <Button
+            android:id="@+id/add_200_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/dpw10"
+            android:layout_weight="1"
+            android:background="@drawable/button_shape_red"
+            android:text="+200"
+            android:textColor="@color/white"
+            android:textSize="@dimen/dph12"/>
+
+        <Button
+            android:id="@+id/add_500_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_shape_red"
+            android:text="+500"
+            android:textColor="@color/white"
+            android:textSize="@dimen/dph12"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/add_money_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dph15"
+        android:layout_marginRight="@dimen/dph15"
+        android:layout_marginTop="@dimen/dph20"
+        android:background="@drawable/rounded_corner_2"
+        android:text="Add Money"
+        android:textColor="@color/white"/>
+</LinearLayout>

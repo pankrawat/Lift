@@ -1,0 +1,30 @@
+-keep class com.liftindia.app.App {
+    <init>();
+    void attachBaseContext(android.content.Context);
+}
+-keep class com.liftindia.app.activity.MainActivity { <init>(); }
+-keep class com.facebook.FacebookActivity { <init>(); }
+-keep class com.liftindia.app.activity.LoginActivity { <init>(); }
+-keep class com.liftindia.app.activity.OtpVerifyActivity { <init>(); }
+-keep class com.liftindia.app.activity.ProfileActivity { <init>(); }
+-keep class com.liftindia.app.activity.VehicleActivity { <init>(); }
+-keep class com.liftindia.app.activity.OffererProfileActivity { <init>(); }
+-keep class com.liftindia.app.activity.ProfileReviewActivity { <init>(); }
+-keep class com.liftindia.app.activity.CropperActivity { <init>(); }
+-keep class com.liftindia.app.activity.HomeActivity { <init>(); }
+-keep class com.liftindia.app.activity.ForgotPasswordActivity { <init>(); }
+-keep class com.liftindia.app.firebase.ChatActivity { <init>(); }
+-keep class com.google.android.gms.gcm.GcmReceiver { <init>(); }
+-keep class com.liftindia.app.ServiceStarter { <init>(); }
+-keep class com.liftindia.app.gcm.MyGcmListenerService { <init>(); }
+-keep class com.liftindia.app.gcm.MyInstanceIDListenerService { <init>(); }
+-keep class com.liftindia.app.gcm.RegistrationIntentService { <init>(); }
+-keep class com.liftindia.app.firebase.FirebaseNotificationService { <init>(); }
+-keep class com.liftindia.app.activity.SplashActivity { <init>(); }
+-keep class com.google.android.gms.auth.api.signin.internal.SignInHubActivity { <init>(); }
+-keep class com.google.android.gms.auth.api.signin.RevocationBoundService { <init>(); }
+-keep class com.facebook.CustomTabActivity { <init>(); }
+-keep class com.facebook.CustomTabMainActivity { <init>(); }
+-keep class com.google.android.gms.measurement.AppMeasurementContentProvider { <init>(); }
+-keep class com.google.android.gms.measurement.AppMeasurementReceiver { <init>(); }
+-keep class com.google.android.gms.measurement.AppMeasurementService { <init>(); }

@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativeParent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/mapPlace"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <RelativeLayout
+        android:id="@+id/rl_offer_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/rl_header"
+        >
+
+        <ImageView
+            android:id="@+id/iv_arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/red_arrow" />
+
+        <ImageView
+            android:id="@+id/iv_bitmap"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/iv_arrow"
+            android:scaleType="fitXY" />
+    </RelativeLayout>
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <LinearLayout
+            android:id="@+id/lowerlinearlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dph50"
+                android:background="#fff"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/ll_details"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dpw70"
+                    android:layout_marginRight="@dimen/dpw70"
+                    android:orientation="vertical"
+                    android:paddingLeft="@dimen/dpw20">
+
+                    <TextView
+                        android:id="@+id/tv_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:layout_marginBottom="@dimen/dph3"
+                        android:text=""
+                        android:textAllCaps="true"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/sp14" />
+
+                    <TextView
+                        android:id="@+id/tv_car_number"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:layout_marginBottom="@dimen/dph3"
+                        android:layout_weight="1"
+                        android:text=""
+                        android:textAllCaps="true"
+                        android:textSize="@dimen/sp11" />
+
+                    <TextView
+                        android:id="@+id/tv_car_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:layout_marginBottom="@dimen/dph3"
+                        android:layout_weight="1"
+                        android:text=""
+                        android:textAllCaps="true"
+                        android:textSize="@dimen/sp11" />
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tv_pickup_location"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/ll_details"
+                    android:layout_below="@+id/ll_details"
+                    android:layout_gravity="left"
+                    android:layout_marginBottom="@dimen/dph3"
+                    android:paddingLeft="@dimen/dpw20"
+                    android:paddingRight="@dimen/dpw10"
+                    android:text="PICKUP LOCATION - "
+                    android:textSize="@dimen/sp11" />
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dph0.5"
+                android:background="@color/black" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dph40"
+                android:background="@color/black"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:id="@+id/rl_share"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:background="@color/white">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_centerInParent="true"
+                        android:drawableLeft="@mipmap/share"
+                        android:drawablePadding="@dimen/dpw5"
+                        android:gravity="center"
+                        android:paddingLeft="@dimen/dpw10"
+                        android:paddingRight="@dimen/dpw10"
+                        android:text="SHARE TO \n FRIEND"
+                        android:textSize="@dimen/sp11" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rl_message"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/dpw1"
+                    android:layout_marginRight="@dimen/dpw1"
+                    android:layout_weight="1"
+                    android:background="@color/white">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_centerInParent="true"
+                        android:drawableLeft="@mipmap/message"
+                        android:drawablePadding="@dimen/dpw5"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:paddingLeft="@dimen/dpw10"
+                        android:paddingRight="@dimen/dpw10"
+                        android:text="MESSAGE"
+                        android:textSize="@dimen/sp11" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rl_call"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:background="@color/white">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerInParent="true"
+                        android:drawableLeft="@mipmap/call3"
+                        android:drawablePadding="@dimen/dpw5"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:paddingLeft="@dimen/dpw20"
+                        android:paddingRight="@dimen/dpw20"
+                        android:text="CALL"
+                        android:textSize="@dimen/sp11" />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <com.liftindia.app.specialview.CircleImageView
+            android:id="@+id/iv_profile"
+            android:layout_width="@dimen/dpw70"
+            android:layout_height="@dimen/dph70"
+            android:layout_marginLeft="@dimen/dpw10"
+            android:layout_marginTop="@dimen/dph10"
+            android:src="@mipmap/default_user" />
+
+        <com.liftindia.app.specialview.CircleImageView
+            android:id="@+id/iv_send_request"
+            android:layout_width="@dimen/dpw70"
+            android:layout_height="@dimen/dpw70"
+            android:layout_gravity="end|top"
+            android:layout_marginRight="@dimen/dpw10"
+            android:layout_marginTop="@dimen/dph10"
+            android:src="@mipmap/plane" />
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/iv_current_location"
+        android:layout_width="@dimen/dpw50"
+        android:layout_height="@dimen/dph40"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="@dimen/dpw30"
+        android:layout_marginRight="@dimen/dpw30"
+        android:layout_marginTop="@dimen/dph40"
+        android:paddingBottom="@dimen/dph10"
+        android:paddingLeft="@dimen/dpw10"
+        android:paddingRight="@dimen/dpw10"
+        android:paddingTop="@dimen/dph10"
+        android:src="@mipmap/locate" />
+
+    <TextView
+        android:id="@+id/tv_route_match"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/iv_current_location"
+        android:background="@drawable/text_shape"
+        android:gravity="center_horizontal"
+        android:paddingBottom="@dimen/dph5"
+        android:paddingLeft="@dimen/dpw5"
+        android:paddingRight="@dimen/dpw5"
+        android:paddingTop="@dimen/dph5"
+        android:scrollX="@dimen/dpw10"
+        android:text=" \n Route Match"
+        android:textColor="@color/darkGreen"
+        android:textSize="@dimen/sp14" />
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/progressloading"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#80292c33"
+        android:visibility="gone">
+
+        <ProgressBar
+            style="@android:style/Widget.ProgressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:indeterminate="true" />
+    </RelativeLayout>
+</RelativeLayout>

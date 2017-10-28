@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/layout-land/mdtp_time_picker_dialog.xml",
+        "source": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/exploded-aar/com.wdullaer/materialdatetimepicker/2.5.0/res/layout-land/mdtp_time_picker_dialog.xml"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\mdtp_time_picker_dialog.xml",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\exploded-aar\\com.wdullaer\\materialdatetimepicker\\2.5.0\\res\\layout-land\\mdtp_time_picker_dialog.xml"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/layout-land/mdtp_date_picker_dialog.xml",
+        "source": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/exploded-aar/com.wdullaer/materialdatetimepicker/2.5.0/res/layout-land/mdtp_date_picker_dialog.xml"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\mdtp_date_picker_dialog.xml",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\exploded-aar\\com.wdullaer\\materialdatetimepicker\\2.5.0\\res\\layout-land\\mdtp_date_picker_dialog.xml"
+    }
+]

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "158540129420",
+    "firebase_url": "https://liftindia-40305.firebaseio.com",
+    "project_id": "liftindia-40305",
+    "storage_bucket": "liftindia-40305.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:158540129420:android:cfeb5dc32e37331e",
+        "android_client_info": {
+          "package_name": "com.liftindia.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "158540129420-ppcog0r9722io9fqmrateo1vr7bdi8n5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgot_PJt9LbpYlVzWba4flejY4K-fOn54"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

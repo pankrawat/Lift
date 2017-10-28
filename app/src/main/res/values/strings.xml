@@ -1,0 +1,101 @@
+<resources>
+    <string name="app_name">Lift India</string>
+    <!--<string name="facebook_app_id">701420433294944</string>-->
+    <!--<string name="facebook_app_id">1197678380293957</string>-->
+   <string name="facebook_app_id">1215912541858578</string>
+    <string name="google_id">75973248968</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="only_tag">tag</string>
+    <string name="tag_liftId">tag_liftId</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+
+    <string name="pargraph">Lift India is a digital movement for helping people by giving them a lift. It aims to provide each and every individual of India with a basic transportation facility by using the already enrolled infrastructure.\n\nWe connect users with each other to share their resources either by empty seats or money. We aim to reduce the travelling cost of both the parties involved.  For example, if 10 people going in 10 different cars or cabs in the same direction, there will be 10 cars on the road with fuel consumption and pollution of 10 vehicles. What if there are only 2 or 3 vehicles that can easily accommodate 10 people. All the factors will reduce by 75%.  As we know the concept of giving lift or taking lift is very old but it has a narrow scope. The reasons are –   Lack of Trust  We don’t know where the other person wants to go  Not getting attention of passing vehicles  Availability on the same road  Most important: no personal monetary benefits. We have considered all the problems and came out with the solution called Real-Time Lift. Lift India has tried to solve all the problems by incorporating the following features –   Security  Detailing and showing various details about the offerer and requester to each other.  Real-time gives the users who are travelling a precise timing of their journey.  Power to choose the most comfortable lift after viewing details of the person.  For offerer, it is a zero Expense travel and for the requester, it would be cheaper than a public transport with the comfort of a private vehicle.  Flexibility to choose the timing and the rate/km  Everything is instantaneous; you don’t need to plan anything in advance.  Automated payment from your Paytm wallet.  Exchange of the travel details to your emergency contact numbers.  Social integration like Facebook and LinkedIn. You can know the person, his post, company and connections. We want ‘Lift India’ to be a mass movement not only for us but for the entire India. We all know the energy crisis, pollution &amp; traffic condition that our country is facing. Lift India is a solution to all these problems.  Think about the pros and cons that this concept has. I know you have arguments for both but once you go through the app and offer or request your lift, the result would be: either your cons would vanish or they would turn into pros. This might not seem very likely but these are the results of the testings that we have performed.></string>
+
+    <string name="offer_step_1_1">Select the start and end points (optional) of your journey on the map, adjust it according to the best possible location and also choose the route through which you want to go like that on a google map.</string>
+    <string name="offer_step_1_2">Select the Price, Number of seats and time at which you want to offer the ride.</string>
+    <string name="offer_step_1_3">You can choose to ‘ride now’ or ‘ride later’. If you want to ride later, enter the time and post lift.</string>
+    <string name="offer_step_1_4">You will be Live on the Lift India App and can get lift requests depending upon the time you have entered.</string>
+    <string name="offer_step_2">You will receive the Lift request like the way you receive a Whatsapp call on your phone and you will also get a request notification via SMS. You can open the app and see the full profile of the requester along with the Pick and Drop points. You can accept, reject, Message or call the requester.</string>
+    <string name="offer_step_3">As the Requester Clicks on the ‘Start Ride’ button when you start your ride with him your lift will start and we will show you the navigation of your chosen route along with the live status of the lift like the time, distance, money and when you drop the rider, you must select the ‘End Ride’ option. You don’t need to keep the screen on during your trip if you don’t need navigation.</string>
+    <string name="offer_step_4">At the end of the ride, the cost sharing amount would be automatically credited to your Paytm account and an email containing the fare summary would be sent to you. You will also be asked to rate your Lift Requester at the end of the trip.</string>
+
+    <string name="request_step_1">Select your start and end points on the map &amp; enter the no. of seats required and click on the search option.</string>
+    <string name="request_step_2">You will see a List of Lift offerers. You can see the full profile of the Lift offerer and select it to see the route and pick and drop location on the map. If you are comfortable with the route, then you can press the ‘send request’ button.</string>
+    <string name="request_step_3_1">Wait for few seconds for the chosen offerer to accept your request.</string>
+    <string name="request_step_3_2">Discuss with them over a message or a call in case of any query.</string>
+    <string name="request_step_3_3">Board the lift and press the ‘start now’ button. Share the details of your lift with a known person for your safety.</string>
+    <string name="request_step_3_4">Keep tracking the location if you want and if you feel there is something wrong press the ‘help’ button.</string>
+    <string name="request_step_4">At the end of the lift, you would pay the bill through your Paytm wallet. After making the payment, you will be asked to rate the ride offerer. An email containing the fare summary would be sent to you for your record.</string>
+
+
+    <string name="_3_seats">3 Seats</string>
+    <string name="_22_min">22 Min</string>
+    <string name="_6_km">6 /km</string>
+    <string-array name="price">
+        <item>5/km</item>
+        <item>10/km</item>
+        <item>15/km</item>
+        <item>20/km</item>
+        <item>25/km</item>
+    </string-array>
+
+    <string-array name="number_of_seats">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+
+
+    <string name="map_instruction">Continue</string>
+    <string name="recurring">Recurring</string>
+    <string name="done">Done</string>
+
+    <string name="prb_default_symbolic_string">★</string>
+
+    <string name="font_bold">fonts/Comfortaa-Bold.ttf</string>
+    <string name="font_regular">fonts/Comfortaa-Regular.ttf</string>
+    <string name="font_light">fonts/Comfortaa-Light.ttf</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="chat">Chat</string>
+    <string name="Please_type_here">Please type here</string>
+    <string name="send">Send</string>
+    <string name="no_chat">No Chat Found</string>
+    <string name="ok">OK</string>
+
+    <string
+        name="title_activity_splash">
+        SplashActivity
+    </string>
+    <string
+        name="dummy_button">
+        Dummy
+        Button
+    </string>
+    <string
+        name="dummy_content">
+        DUMMY\nCONTENT
+    </string>
+
+    <string
+        name="title_activity_handler">
+        HandlerActivity
+    </string>
+    <string name="Rs">\u20B9</string>
+    <string name="contact_us_email">contactapp@liftindia.co</string>
+    <string name="contact_us_mobile1">+919971898845</string>
+    <string name="contact_us_mobile2">+919810578576</string>
+</resources>

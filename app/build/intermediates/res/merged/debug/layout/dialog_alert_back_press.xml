@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dph35"
+        android:background="@color/darkGreen"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/textView11"
+            fontPath="@string/font_bold"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingLeft="@dimen/dpw15"
+            android:text="Cancel Transaction"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp16" />
+
+        <RelativeLayout
+            android:id="@+id/rl_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="@dimen/dpw50"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:paddingBottom="@dimen/dph5"
+                android:paddingLeft="@dimen/dph15"
+                android:paddingRight="@dimen/dph15"
+                android:paddingTop="@dimen/dph5"
+                android:src="@mipmap/white"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pressing back would cancel your current transaction. Proceed to cancel?"
+        android:textSize="@dimen/sp16"
+        android:gravity="center"
+        android:paddingTop="@dimen/dph10"
+        android:paddingLeft="@dimen/dph20"
+        android:paddingRight="@dimen/dph20"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/dph20"
+        android:paddingLeft="@dimen/dph20"
+        android:paddingRight="@dimen/dph20"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/yes_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/dph20"
+            android:layout_marginTop="@dimen/dph20"
+            android:layout_weight="1"
+            android:background="@drawable/dialog_button_shape"
+            android:text="Yes"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp14" />
+
+        <Button
+            android:id="@+id/no_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dph20"
+            android:layout_marginTop="@dimen/dph20"
+            android:layout_weight="1"
+            android:background="@drawable/dialog_button_shape"
+            android:text="No"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp14" />
+    </LinearLayout>
+
+</LinearLayout>

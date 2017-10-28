@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dph10"
+        android:layout_marginBottom="@dimen/dph5"
+        android:paddingLeft="@dimen/dpw25"
+        android:paddingRight="@dimen/dpw25"
+        android:textSize="@dimen/sp18"
+        android:textColor="@color/colorPrimary"
+        android:text="Emergency Alert"/>
+
+    <TextView
+        android:id="@+id/tv_msg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dph10"
+        android:layout_marginBottom="@dimen/dph5"
+        android:paddingLeft="@dimen/dpw25"
+        android:paddingRight="@dimen/dpw25"
+        android:textSize="@dimen/sp16"
+        android:lineSpacingExtra="5dp"
+        android:text="Call Emergency Contact"/>
+
+    <at.grabner.circleprogress.CircleProgressView
+        android:id="@+id/circleView"
+        android:layout_width="@dimen/dpw150"
+        android:layout_height="@dimen/dpw150"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center_horizontal"
+        app:cpv_textSize="100sp"
+        app:cpv_barColor="@color/lightGreen"
+        app:cpv_barWidth="3dp"
+        app:cpv_innerContourSize="0dp"
+        app:cpv_maxValue="10"
+        app:cpv_outerContourSize="0dp"
+        app:cpv_rimColor="@color/text_color_chat"
+        app:cpv_rimWidth="2dp"
+        app:cpv_seekMode="false"
+        app:cpv_showUnit="true"
+        app:cpv_spinColor="@color/colorPrimary"
+        app:cpv_textColor="@color/lightGreen"
+        app:cpv_textScale="1"
+        app:cpv_unit="sec"
+        app:cpv_unitColor="@color/lightGreen"
+        app:cpv_unitPosition="bottom"
+        app:cpv_unitSize="30sp"
+        app:cpv_unitScale="1"
+        app:cpv_value="0"
+        app:cpv_textMode="Value"/>
+
+</LinearLayout>

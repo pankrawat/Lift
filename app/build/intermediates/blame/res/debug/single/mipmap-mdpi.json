@@ -1,0 +1,926 @@
+[
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/mipmap-mdpi/date.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/mipmap-mdpi/date.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\call.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\src\\main\\res\\mipmap-mdpi\\call.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/mipmap-mdpi/tag.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/mipmap-mdpi/tag.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/mipmap-mdpi/cross.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/mipmap-mdpi/cross.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/mipmap-mdpi/back.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/mipmap-mdpi/back.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\flag_blue.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\src\\main\\res\\mipmap-mdpi\\flag_blue.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\whatsapp.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\src\\main\\res\\mipmap-mdpi\\whatsapp.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\plus.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\src\\main\\res\\mipmap-mdpi\\plus.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/mipmap-mdpi/rupee.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/mipmap-mdpi/rupee.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/mipmap-mdpi/call_2.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/mipmap-mdpi/call_2.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\green_camera.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\src\\main\\res\\mipmap-mdpi\\green_camera.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\review.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\src\\main\\res\\mipmap-mdpi\\review.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\map_pin_blue.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\src\\main\\res\\mipmap-mdpi\\map_pin_blue.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\default_user.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\src\\main\\res\\mipmap-mdpi\\default_user.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\taxi.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\src\\main\\res\\mipmap-mdpi\\taxi.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/mipmap-mdpi/car_right.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/mipmap-mdpi/car_right.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\cig.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\src\\main\\res\\mipmap-mdpi\\cig.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\tag.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\src\\main\\res\\mipmap-mdpi\\tag.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\cross.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\src\\main\\res\\mipmap-mdpi\\cross.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/mipmap-mdpi/master_card.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/mipmap-mdpi/master_card.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/mipmap-mdpi/web.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/mipmap-mdpi/web.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/mipmap-mdpi/nosmoking.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/mipmap-mdpi/nosmoking.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/mipmap-mdpi/eye.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/mipmap-mdpi/eye.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/mipmap-mdpi/uncheck.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/mipmap-mdpi/uncheck.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\cvv.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\src\\main\\res\\mipmap-mdpi\\cvv.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\rupee.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\src\\main\\res\\mipmap-mdpi\\rupee.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/mipmap-mdpi/inactive.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/mipmap-mdpi/inactive.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/mipmap-mdpi/expand_arrow.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/mipmap-mdpi/expand_arrow.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\web.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\src\\main\\res\\mipmap-mdpi\\web.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\nomusic.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\src\\main\\res\\mipmap-mdpi\\nomusic.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/mipmap-mdpi/bike_right.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/mipmap-mdpi/bike_right.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/mipmap-mdpi/mail_share.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/mipmap-mdpi/mail_share.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\arrow.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\src\\main\\res\\mipmap-mdpi\\arrow.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/mipmap-mdpi/music.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/mipmap-mdpi/music.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\flag_green.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\src\\main\\res\\mipmap-mdpi\\flag_green.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/mipmap-mdpi/offer.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/mipmap-mdpi/offer.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\search_plus.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\src\\main\\res\\mipmap-mdpi\\search_plus.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\customer.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\src\\main\\res\\mipmap-mdpi\\customer.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/mipmap-mdpi/cvv.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/mipmap-mdpi/cvv.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\money.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\src\\main\\res\\mipmap-mdpi\\money.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\car_pin1.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\src\\main\\res\\mipmap-mdpi\\car_pin1.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\call3.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\src\\main\\res\\mipmap-mdpi\\call3.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\twitter.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\src\\main\\res\\mipmap-mdpi\\twitter.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\time.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\src\\main\\res\\mipmap-mdpi\\time.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\visa.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\src\\main\\res\\mipmap-mdpi\\visa.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/mipmap-mdpi/fb.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/mipmap-mdpi/fb.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/mipmap-mdpi/money.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/mipmap-mdpi/money.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/mipmap-mdpi/logout.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/mipmap-mdpi/logout.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/mipmap-mdpi/star_grey.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/mipmap-mdpi/star_grey.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/mipmap-mdpi/cig.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/mipmap-mdpi/cig.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\minus.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\src\\main\\res\\mipmap-mdpi\\minus.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/mipmap-mdpi/pin_white.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/mipmap-mdpi/pin_white.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\close_arrow.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\src\\main\\res\\mipmap-mdpi\\close_arrow.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\req.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\src\\main\\res\\mipmap-mdpi\\req.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\eye_a.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\src\\main\\res\\mipmap-mdpi\\eye_a.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\music.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\src\\main\\res\\mipmap-mdpi\\music.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/mipmap-mdpi/call3.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/mipmap-mdpi/call3.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\star_fill.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\src\\main\\res\\mipmap-mdpi\\star_fill.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\star_.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\src\\main\\res\\mipmap-mdpi\\star_.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\car_dark.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\src\\main\\res\\mipmap-mdpi\\car_dark.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/mipmap-mdpi/in_green.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/mipmap-mdpi/in_green.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/mipmap-mdpi/camera.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/mipmap-mdpi/camera.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\rupeee.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\src\\main\\res\\mipmap-mdpi\\rupeee.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/mipmap-mdpi/flag_red.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/mipmap-mdpi/flag_red.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/mipmap-mdpi/req.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/mipmap-mdpi/req.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/mipmap-mdpi/arrow.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/mipmap-mdpi/arrow.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/mipmap-mdpi/garrow.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/mipmap-mdpi/garrow.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/mipmap-mdpi/flag_green.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/mipmap-mdpi/flag_green.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\green_box.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\src\\main\\res\\mipmap-mdpi\\green_box.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\bike_pin1.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\src\\main\\res\\mipmap-mdpi\\bike_pin1.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\car_light.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\src\\main\\res\\mipmap-mdpi\\car_light.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\flag.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\src\\main\\res\\mipmap-mdpi\\flag.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\warrow.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\src\\main\\res\\mipmap-mdpi\\warrow.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\mark.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\src\\main\\res\\mipmap-mdpi\\mark.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/mipmap-mdpi/auto_pin.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/mipmap-mdpi/auto_pin.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/mipmap-mdpi/auto_right.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/mipmap-mdpi/auto_right.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/mipmap-mdpi/warrow.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/mipmap-mdpi/warrow.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\pay.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\src\\main\\res\\mipmap-mdpi\\pay.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/mipmap-mdpi/active.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/mipmap-mdpi/active.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\rup.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\src\\main\\res\\mipmap-mdpi\\rup.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\menu.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\src\\main\\res\\mipmap-mdpi\\menu.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\message.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\src\\main\\res\\mipmap-mdpi\\message.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\nosmoking.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\src\\main\\res\\mipmap-mdpi\\nosmoking.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/mipmap-mdpi/car_pin1.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/mipmap-mdpi/car_pin1.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/mipmap-mdpi/star_.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/mipmap-mdpi/star_.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\call_2.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\src\\main\\res\\mipmap-mdpi\\call_2.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/mipmap-mdpi/bike_pin1.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/mipmap-mdpi/bike_pin1.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/mipmap-mdpi/star_yellow.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/mipmap-mdpi/star_yellow.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\edit.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\src\\main\\res\\mipmap-mdpi\\edit.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/mipmap-mdpi/unchecked_checkbox.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/mipmap-mdpi/unchecked_checkbox.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/mipmap-mdpi/red.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/mipmap-mdpi/red.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\garrow.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\src\\main\\res\\mipmap-mdpi\\garrow.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/mipmap-mdpi/message.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/mipmap-mdpi/message.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/mipmap-mdpi/call.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/mipmap-mdpi/call.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\faq.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\src\\main\\res\\mipmap-mdpi\\faq.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/mipmap-mdpi/icon.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/mipmap-mdpi/icon.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/mipmap-mdpi/mail.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/mipmap-mdpi/mail.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/mipmap-mdpi/in.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/mipmap-mdpi/in.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\back.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\src\\main\\res\\mipmap-mdpi\\back.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\pin_white.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\src\\main\\res\\mipmap-mdpi\\pin_white.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\in.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\src\\main\\res\\mipmap-mdpi\\in.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/mipmap-mdpi/fb_green.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/mipmap-mdpi/fb_green.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/mipmap-mdpi/whatsapp.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/mipmap-mdpi/whatsapp.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/mipmap-mdpi/chat.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/mipmap-mdpi/chat.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\checked_checkbox.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\src\\main\\res\\mipmap-mdpi\\checked_checkbox.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\flag_red.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\src\\main\\res\\mipmap-mdpi\\flag_red.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/mipmap-mdpi/customer.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/mipmap-mdpi/customer.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/mipmap-mdpi/flag_blue.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/mipmap-mdpi/flag_blue.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\edit_green.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\src\\main\\res\\mipmap-mdpi\\edit_green.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\fb_green.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\src\\main\\res\\mipmap-mdpi\\fb_green.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\tracker.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\src\\main\\res\\mipmap-mdpi\\tracker.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\master_card.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\src\\main\\res\\mipmap-mdpi\\master_card.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\red_arrow.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\src\\main\\res\\mipmap-mdpi\\red_arrow.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/mipmap-mdpi/twitter.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/mipmap-mdpi/twitter.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\auto_pin.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\src\\main\\res\\mipmap-mdpi\\auto_pin.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/mipmap-mdpi/star_green.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/mipmap-mdpi/star_green.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/mipmap-mdpi/car_light.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/mipmap-mdpi/car_light.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/mipmap-mdpi/close_arrow.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/mipmap-mdpi/close_arrow.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/mipmap-mdpi/locate.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/mipmap-mdpi/locate.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\share.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\src\\main\\res\\mipmap-mdpi\\share.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/mipmap-mdpi/messanger.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/mipmap-mdpi/messanger.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\red_box.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\src\\main\\res\\mipmap-mdpi\\red_box.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/mipmap-mdpi/bike_pin.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/mipmap-mdpi/bike_pin.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\expand_arrow.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\src\\main\\res\\mipmap-mdpi\\expand_arrow.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\active.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\src\\main\\res\\mipmap-mdpi\\active.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/mipmap-mdpi/garrow2.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/mipmap-mdpi/garrow2.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/mipmap-mdpi/taxi.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/mipmap-mdpi/taxi.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\end_ride.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\src\\main\\res\\mipmap-mdpi\\end_ride.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/mipmap-mdpi/plus.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/mipmap-mdpi/plus.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/mipmap-mdpi/menu.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/mipmap-mdpi/menu.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\car.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\src\\main\\res\\mipmap-mdpi\\car.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/mipmap-mdpi/car_dark.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/mipmap-mdpi/car_dark.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\white.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\src\\main\\res\\mipmap-mdpi\\white.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/mipmap-mdpi/star_black.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/mipmap-mdpi/star_black.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/mipmap-mdpi/share.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/mipmap-mdpi/share.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/mipmap-mdpi/white.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/mipmap-mdpi/white.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/mipmap-mdpi/end.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/mipmap-mdpi/end.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/mipmap-mdpi/tick.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/mipmap-mdpi/tick.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/mipmap-mdpi/star_fill.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/mipmap-mdpi/star_fill.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\clock.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\src\\main\\res\\mipmap-mdpi\\clock.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\car_pin.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\src\\main\\res\\mipmap-mdpi\\car_pin.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\medal.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\src\\main\\res\\mipmap-mdpi\\medal.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\forward_arrow.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\src\\main\\res\\mipmap-mdpi\\forward_arrow.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/mipmap-mdpi/map.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/mipmap-mdpi/map.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/mipmap-mdpi/edit_green.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/mipmap-mdpi/edit_green.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/mipmap-mdpi/time.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/mipmap-mdpi/time.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\map_pin_green.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\src\\main\\res\\mipmap-mdpi\\map_pin_green.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\inactive.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\src\\main\\res\\mipmap-mdpi\\inactive.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/mipmap-mdpi/green_box.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/mipmap-mdpi/green_box.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/mipmap-mdpi/map_pin_blue.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/mipmap-mdpi/map_pin_blue.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/mipmap-mdpi/green_camera.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/mipmap-mdpi/green_camera.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/mipmap-mdpi/default_user.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/mipmap-mdpi/default_user.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/mipmap-mdpi/review.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/mipmap-mdpi/review.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/mipmap-mdpi/rupeee.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/mipmap-mdpi/rupeee.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\camera.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\src\\main\\res\\mipmap-mdpi\\camera.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\star_green.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\src\\main\\res\\mipmap-mdpi\\star_green.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/mipmap-mdpi/red_arrow.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/mipmap-mdpi/red_arrow.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/mipmap-mdpi/history.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/mipmap-mdpi/history.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\add.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\src\\main\\res\\mipmap-mdpi\\add.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\star_yellow.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\src\\main\\res\\mipmap-mdpi\\star_yellow.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/mipmap-mdpi/phone.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/mipmap-mdpi/phone.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/mipmap-mdpi/minus.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/mipmap-mdpi/minus.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/mipmap-mdpi/car_pin.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/mipmap-mdpi/car_pin.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\fb.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\src\\main\\res\\mipmap-mdpi\\fb.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/mipmap-mdpi/star_red.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/mipmap-mdpi/star_red.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\in_green.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\src\\main\\res\\mipmap-mdpi\\in_green.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/mipmap-mdpi/msg.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/mipmap-mdpi/msg.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\mastero.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\src\\main\\res\\mipmap-mdpi\\mastero.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/mipmap-mdpi/rup.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/mipmap-mdpi/rup.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/mipmap-mdpi/clock.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/mipmap-mdpi/clock.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/mipmap-mdpi/visa.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/mipmap-mdpi/visa.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\phone.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\src\\main\\res\\mipmap-mdpi\\phone.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\red.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\src\\main\\res\\mipmap-mdpi\\red.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/mipmap-mdpi/medal.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/mipmap-mdpi/medal.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/mipmap-mdpi/eye_a.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/mipmap-mdpi/eye_a.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/mipmap-mdpi/g.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/mipmap-mdpi/g.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\garrow2.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\src\\main\\res\\mipmap-mdpi\\garrow2.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\logout.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\src\\main\\res\\mipmap-mdpi\\logout.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\uncheck.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\src\\main\\res\\mipmap-mdpi\\uncheck.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\star_grey.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\src\\main\\res\\mipmap-mdpi\\star_grey.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/mipmap-mdpi/pay.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/mipmap-mdpi/pay.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/mipmap-mdpi/edit.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/mipmap-mdpi/edit.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\offer.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\src\\main\\res\\mipmap-mdpi\\offer.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\map_pin_red.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\src\\main\\res\\mipmap-mdpi\\map_pin_red.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/mipmap-mdpi/end_ride.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/mipmap-mdpi/end_ride.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/mipmap-mdpi/flag.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/mipmap-mdpi/flag.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\mail_share.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\src\\main\\res\\mipmap-mdpi\\mail_share.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/mipmap-mdpi/auto_pin1.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/mipmap-mdpi/auto_pin1.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/mipmap-mdpi/map_pin_red.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/mipmap-mdpi/map_pin_red.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/mipmap-mdpi/mark.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/mipmap-mdpi/mark.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\app_icon.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\src\\main\\res\\mipmap-mdpi\\app_icon.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\setting.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\src\\main\\res\\mipmap-mdpi\\setting.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\tick.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\src\\main\\res\\mipmap-mdpi\\tick.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\history.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\src\\main\\res\\mipmap-mdpi\\history.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\bike_pin.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\src\\main\\res\\mipmap-mdpi\\bike_pin.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/mipmap-mdpi/add.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/mipmap-mdpi/add.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/mipmap-mdpi/tracker.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/mipmap-mdpi/tracker.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/mipmap-mdpi/mastero.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/mipmap-mdpi/mastero.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\auto_pin1.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\src\\main\\res\\mipmap-mdpi\\auto_pin1.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/mipmap-mdpi/app_icon.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/mipmap-mdpi/app_icon.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/mipmap-mdpi/forward_arrow.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/mipmap-mdpi/forward_arrow.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\unchecked_checkbox.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\src\\main\\res\\mipmap-mdpi\\unchecked_checkbox.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/mipmap-mdpi/faq.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/mipmap-mdpi/faq.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/mipmap-mdpi/map_pin_green.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/mipmap-mdpi/map_pin_green.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\icon.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\src\\main\\res\\mipmap-mdpi\\icon.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\mail.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\src\\main\\res\\mipmap-mdpi\\mail.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\star_red.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\src\\main\\res\\mipmap-mdpi\\star_red.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/mipmap-mdpi/check.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/mipmap-mdpi/check.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\locate.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\src\\main\\res\\mipmap-mdpi\\locate.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/mipmap-mdpi/car.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/mipmap-mdpi/car.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\eye.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\src\\main\\res\\mipmap-mdpi\\eye.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\msg.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\src\\main\\res\\mipmap-mdpi\\msg.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/mipmap-mdpi/setting.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/mipmap-mdpi/setting.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/mipmap-mdpi/nomusic.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/mipmap-mdpi/nomusic.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\chat.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\src\\main\\res\\mipmap-mdpi\\chat.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\date.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\src\\main\\res\\mipmap-mdpi\\date.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/mipmap-mdpi/ph.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/mipmap-mdpi/ph.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\plane.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\src\\main\\res\\mipmap-mdpi\\plane.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\end.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\src\\main\\res\\mipmap-mdpi\\end.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/mipmap-mdpi/checked_checkbox.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/mipmap-mdpi/checked_checkbox.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/mipmap-mdpi/red_box.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/mipmap-mdpi/red_box.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\messanger.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\src\\main\\res\\mipmap-mdpi\\messanger.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\g.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\src\\main\\res\\mipmap-mdpi\\g.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ph.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\src\\main\\res\\mipmap-mdpi\\ph.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/mipmap-mdpi/plane.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/mipmap-mdpi/plane.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\map.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\src\\main\\res\\mipmap-mdpi\\map.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/mipmap-mdpi/search_plus.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/mipmap-mdpi/search_plus.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\check.png",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\src\\main\\res\\mipmap-mdpi\\check.png"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/mipmap-mdpi/arrow_bold.png",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/mipmap-mdpi/arrow_bold.png"
+    }
+]

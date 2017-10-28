@@ -1,0 +1,367 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lineaar_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rl_header"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dph40"
+        android:background="@color/darkGreen">
+
+        <RelativeLayout
+            android:id="@+id/drawerIcon"
+            android:layout_width="@dimen/dpw40"
+            android:layout_height="@dimen/dph40">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@mipmap/menu" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_header"
+            fontPath="@string/font_bold"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:gravity="center"
+            android:text="Payments"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp20" />
+
+        <TextView
+            android:id="@+id/tv_edit"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:text="Edit"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp13" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/dph5"
+        android:paddingLeft="@dimen/dpw15"
+        android:paddingRight="@dimen/dpw15"
+        android:paddingTop="@dimen/dph5">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="@dimen/dph20"
+            android:src="@drawable/mobikwik_logo" />
+
+        <!-- <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:gravity="center_horizontal"
+             android:paddingBottom="@dimen/dph5"
+             android:paddingLeft="@dimen/dpw5"
+             android:paddingRight="@dimen/dpw5"
+             android:paddingTop="@dimen/dph15"
+             android:text="Associated Number"
+             android:textColor="@color/black"
+             android:textSize="@dimen/sp16" />-->
+
+        <!--<EditText
+            android:id="@+id/et_p_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:digits="0123456789"
+            android:gravity="center_horizontal"
+            android:hint="10 Digit Mobile Number"
+            android:inputType="phone"
+            android:maxLength="10"
+            android:paddingBottom="@dimen/dph5"
+            android:paddingLeft="@dimen/dpw5"
+            android:paddingRight="@dimen/dpw5"
+            android:paddingTop="@dimen/dph5"
+            android:textColor="@color/black"
+            android:textSize="@dimen/sp16" />-->
+
+        <RelativeLayout
+            android:id="@+id/rl_energency_mobile"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dph35"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="@dimen/dpw20"
+            android:layout_marginRight="@dimen/dpw20"
+            android:layout_marginTop="@dimen/dph15"
+            android:background="@drawable/rounded_corner">
+
+            <TextView
+                android:id="@+id/tv_912"
+                android:layout_width="@dimen/dpw35"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="+91"
+                android:textColor="@color/c5d5d5d"
+                android:textSize="@dimen/sp12" />
+
+            <View
+                android:layout_width="@dimen/dpw1"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@+id/tv_912"
+                android:background="@color/cbdbdbd" />
+
+            <EditText
+                android:id="@+id/et_mobile"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@+id/tv_912"
+                android:background="@null"
+                android:gravity="center_vertical"
+                android:hint="Mobile Number"
+                android:inputType="phone"
+                android:maxLength="10"
+                android:maxLines="1"
+                android:paddingLeft="@dimen/dpw15"
+                android:textColor="@color/c5d5d5d"
+                android:textSize="@dimen/sp12" />
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/btn_submit"
+            android:layout_width="@dimen/dpw110"
+            android:layout_height="@dimen/dph35"
+            android:layout_below="@+id/tv_change_mobile"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/dph15"
+            android:background="@drawable/rounded_corner_2"
+            android:text="Submit"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp14" />
+
+
+        <LinearLayout
+            android:id="@+id/current_balance_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:paddingBottom="@dimen/dph5"
+                android:paddingLeft="@dimen/dpw5"
+                android:paddingRight="@dimen/dpw5"
+                android:paddingTop="@dimen/dph15"
+                android:text="Current balance: "
+                android:textColor="#808080"
+                android:textSize="@dimen/sp16" />
+
+            <TextView
+                android:id="@+id/tv_balance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:paddingBottom="@dimen/dph5"
+                android:paddingRight="@dimen/dpw5"
+                android:paddingTop="@dimen/dph15"
+                android:text=""
+                android:textColor="@color/darkGreen"
+                android:textSize="@dimen/sp16" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_add_money"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dph35"
+            android:layout_below="@+id/tv_change_mobile"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="@dimen/dph20"
+            android:layout_marginRight="@dimen/dph20"
+            android:layout_marginTop="@dimen/dph15"
+            android:background="@drawable/rounded_corner_2"
+            android:text="Add Money"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp14"
+            android:visibility="gone" />
+
+        <!--<EditText
+            android:id="@+id/et_p_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:gravity="center_horizontal"
+            android:hint="Enter Email Id"
+            android:inputType="textWebEmailAddress"
+            android:paddingBottom="@dimen/dph5"
+            android:paddingLeft="@dimen/dpw5"
+            android:paddingRight="@dimen/dpw5"
+            android:paddingTop="@dimen/dph5"
+            android:textColor="@color/black"
+            android:textSize="@dimen/sp16" />-->
+        <!--<EditText-->
+        <!--android:id="@+id/et_email"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="@dimen/dph35"-->
+        <!--android:layout_marginLeft="@dimen/dpw20"-->
+        <!--android:layout_marginRight="@dimen/dpw20"-->
+        <!--android:layout_marginTop="@dimen/dph15"-->
+        <!--android:background="@drawable/rounded_corner"-->
+        <!--android:gravity="center_vertical"-->
+        <!--android:hint="Email"-->
+        <!--android:inputType="textEmailAddress"-->
+        <!--android:paddingLeft="@dimen/dpw10"-->
+        <!--android:singleLine="true"-->
+        <!--android:textColor="@color/c5d5d5d"-->
+        <!--android:textSize="@dimen/sp12" />-->
+
+        <RelativeLayout
+            android:id="@+id/rl_otp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dph35"
+            android:layout_marginLeft="@dimen/dpw20"
+            android:layout_marginRight="@dimen/dpw20"
+            android:layout_marginTop="@dimen/dph15"
+            android:background="@drawable/rounded_corner"
+            android:visibility="gone">
+
+            <EditText
+                android:id="@+id/et_otp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@+id/tv_91"
+                android:background="@null"
+                android:gravity="center_vertical"
+                android:hint="Verification Code"
+                android:inputType="number"
+                android:maxLength="6"
+                android:paddingLeft="@dimen/dpw10"
+                android:textColor="@color/c323232"
+                android:textSize="@dimen/sp12" />
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/btn_verify"
+            android:layout_width="@dimen/dpw110"
+            android:layout_height="@dimen/dph35"
+            android:layout_below="@+id/tv_change_mobile"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/dph15"
+            android:background="@drawable/rounded_corner_2"
+            android:text="Verify"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp14"
+            android:visibility="gone" />
+
+
+        <TextView
+            android:id="@+id/tv_resend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_verify"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/dph15"
+            android:paddingBottom="@dimen/dph10"
+            android:paddingLeft="@dimen/dpw10"
+            android:paddingRight="@dimen/dpw10"
+            android:paddingTop="@dimen/dph10"
+            android:text="Resend OTP"
+            android:textColor="@color/c017060"
+            android:textSize="@dimen/sp14"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <!--<View
+        android:layout_width="@dimen/dpw240"
+        android:layout_height="@dimen/dph1"
+        android:layout_gravity="center"
+        android:background="@color/c5d5d5d" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/dph5"
+        android:paddingLeft="@dimen/dpw15"
+        android:paddingRight="@dimen/dpw15"
+        android:paddingTop="@dimen/dph5"
+        android:visibility="visible">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:padding="@dimen/dph5"
+            android:src="@drawable/mobikwik_logo" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:paddingBottom="@dimen/dph5"
+            android:paddingLeft="@dimen/dpw5"
+            android:paddingRight="@dimen/dpw5"
+            android:paddingTop="@dimen/dph5"
+            android:text="Associated Number"
+            android:textColor="@color/black"
+            android:textSize="@dimen/sp16" />
+
+        <EditText
+            android:id="@+id/et_m_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:digits="0123456789"
+            android:gravity="center_horizontal"
+            android:hint="10 Digit Mobile Number"
+            android:inputType="phone"
+            android:maxLength="10"
+            android:paddingBottom="@dimen/dph5"
+            android:paddingLeft="@dimen/dpw5"
+            android:paddingRight="@dimen/dpw5"
+            android:paddingTop="@dimen/dph5"
+            android:textColor="@color/black"
+            android:textSize="@dimen/sp16" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:paddingBottom="@dimen/dph5"
+            android:paddingLeft="@dimen/dpw5"
+            android:paddingRight="@dimen/dpw5"
+            android:paddingTop="@dimen/dph5"
+            android:text="Associated Email"
+            android:textColor="@color/black"
+            android:textSize="@dimen/sp16" />
+
+        <EditText
+            android:id="@+id/et_m_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:gravity="center_horizontal"
+            android:hint="Enter Email Id"
+            android:inputType="textWebEmailAddress"
+            android:paddingBottom="@dimen/dph5"
+            android:paddingLeft="@dimen/dpw5"
+            android:paddingRight="@dimen/dpw5"
+            android:paddingTop="@dimen/dph5"
+            android:textColor="@color/black"
+            android:textSize="@dimen/sp16" />
+    </LinearLayout>-->
+</LinearLayout>

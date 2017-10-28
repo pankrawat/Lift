@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dph35"
+        android:background="@color/darkGreen"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/dpw20"
+            android:text="Ride Details"
+
+            fontPath="@string/font_bold"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp16" />
+
+        <RelativeLayout
+            android:id="@+id/rl_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:paddingBottom="@dimen/dph15"
+                android:paddingLeft="@dimen/dpw15"
+                android:paddingRight="@dimen/dpw15"
+                android:paddingTop="@dimen/dph15"
+                android:src="@mipmap/white" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dph30"
+        android:layout_marginLeft="@dimen/dpw20"
+        android:layout_marginRight="@dimen/dpw20"
+        android:layout_marginTop="@dimen/dph20"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_label_price"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.8"
+            android:gravity="center_vertical"
+            android:text="Price"
+            android:textColor="@color/black"
+            android:textSize="@dimen/sp14" />
+
+
+        <RelativeLayout
+            android:id="@+id/rl_price"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/rounded_corner">
+
+            <TextView
+                android:id="@+id/tv_price"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/dpw10"
+                android:textColor="@color/c5d5d5d"
+                android:textSize="@dimen/sp14" />
+
+            <View
+                android:layout_width="@dimen/dpw1"
+                android:layout_height="match_parent"
+                android:layout_toLeftOf="@+id/iv_price_arrow"
+                android:background="@color/cbdbdbd" />
+
+            <ImageView
+                android:id="@+id/iv_price_arrow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:paddingBottom="@dimen/dph10"
+                android:paddingLeft="@dimen/dpw10"
+                android:paddingRight="@dimen/dpw10"
+                android:paddingTop="@dimen/dph10"
+                android:src="@mipmap/arrow" />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dph30"
+        android:layout_marginBottom="@dimen/dph20"
+        android:layout_marginLeft="@dimen/dpw20"
+        android:layout_marginRight="@dimen/dpw20"
+        android:layout_marginTop="@dimen/dph20"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_label_offer"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.8"
+            android:gravity="center_vertical"
+            android:text="Offer Seat"
+            android:textColor="@color/black"
+            android:textSize="@dimen/sp14" />
+
+        <RelativeLayout
+            android:id="@+id/rl_offer_seat"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/rounded_corner">
+
+            <TextView
+                android:id="@+id/tv_offer"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/dpw10"
+                android:textColor="@color/c5d5d5d"
+                android:textSize="@dimen/sp14" />
+
+            <View
+                android:layout_width="@dimen/dpw1"
+                android:layout_height="match_parent"
+                android:layout_toLeftOf="@+id/iv_offer_arrow"
+                android:background="@color/cbdbdbd" />
+
+            <ImageView
+                android:id="@+id/iv_offer_arrow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:paddingBottom="@dimen/dph10"
+                android:paddingLeft="@dimen/dpw10"
+                android:paddingRight="@dimen/dpw10"
+                android:paddingTop="@dimen/dph10"
+                android:src="@mipmap/arrow" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="80dp"
+            android:layout_height="fill_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="@dimen/dpw20"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="De-Tour"
+            android:textColor="@color/black"
+            android:textSize="@dimen/sp15" />
+
+        <SeekBar
+            android:id="@+id/seekBar"
+            android:layout_width="170dp"
+            android:layout_height="fill_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/textView3"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="@dimen/dpw20"
+            android:layout_weight="4" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/ride_now"
+            android:layout_width="@dimen/dpw50"
+            android:layout_height="@dimen/dph30"
+            android:layout_marginLeft="@dimen/dpw30"
+            android:layout_weight="1"
+            android:background="@drawable/ridedetails_button"
+            android:text="Ride Now"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp14" />
+
+        <Button
+            android:id="@+id/ride_later"
+            android:layout_width="@dimen/dpw50"
+            android:layout_height="@dimen/dph30"
+            android:layout_marginLeft="@dimen/dpw20"
+            android:layout_marginRight="@dimen/dpw30"
+            android:layout_weight="1"
+            android:background="@drawable/ridedetails_button"
+            android:text="Ride later"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp14" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/dph20"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/dph20">
+
+        <Button
+            android:id="@+id/post_details"
+            android:layout_width="@dimen/dpw100"
+            android:layout_height="@dimen/dph30"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/post_button"
+            android:clickable="false"
+            android:text="Post"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp14" />
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,96 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dph40"
+        android:background="@color/darkGreen">
+
+        <RelativeLayout
+            android:id="@+id/rl_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:paddingBottom="@dimen/dph10"
+                android:paddingLeft="@dimen/dpw10"
+                android:paddingRight="@dimen/dpw10"
+                android:paddingTop="@dimen/dph10"
+                android:src="@mipmap/back" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_header"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/dpw50"
+            android:layout_marginRight="@dimen/dpw50"
+            android:gravity="center"
+            android:text="Lift Details"
+            fontPath="@string/font_bold"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp20" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/header"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/tv_billing_details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/back_shape"
+            android:gravity="center_horizontal"
+            android:paddingBottom="@dimen/dph10"
+            android:paddingLeft="@dimen/dpw10"
+            android:paddingRight="@dimen/dpw10"
+            android:paddingTop="@dimen/dph10"
+            android:text="Billing Details"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp14" />
+
+        <View
+            android:layout_width="@dimen/dpw0.5"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/tv_requester_details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_weight="1"
+            android:background="@drawable/back_shape_1"
+            android:gravity="center_horizontal"
+            android:paddingBottom="@dimen/dph10"
+            android:paddingLeft="@dimen/dpw10"
+            android:paddingRight="@dimen/dpw10"
+            android:paddingTop="@dimen/dph10"
+            android:text="Lifter Details"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp14" />
+    </LinearLayout>
+
+    <android.support.v4.view.ViewPager
+        android:background="@color/ce0e0e0"
+        android:id="@+id/vp_lift_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/line">
+
+    </android.support.v4.view.ViewPager>
+</RelativeLayout>

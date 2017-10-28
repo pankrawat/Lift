@@ -1,0 +1,275 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/parent_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="@color/white"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/f3f3f3"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/dph5"
+            android:weightSum="10">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="6">
+
+                <com.liftindia.app.specialview.CircleImageView
+                    android:id="@+id/iv_profile"
+                    android:layout_width="@dimen/dpw60"
+                    android:layout_height="@dimen/dph60"
+                    android:layout_marginRight="5dp"
+                    android:src="@mipmap/default_user" />
+
+                <TextView
+                    android:id="@+id/tv_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="@dimen/dph10"
+                    android:layout_toEndOf="@+id/iv_profile"
+                    android:layout_toRightOf="@+id/iv_profile"
+                    android:singleLine="true"
+                    android:textColor="@color/darkGreen"
+                    android:textSize="@dimen/sp14" />
+
+                <LinearLayout
+                    android:id="@+id/li_agerating"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/tv_name"
+                    android:layout_alignStart="@+id/tv_name"
+                    android:layout_below="@+id/tv_name"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_year"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:paddingBottom="@dimen/dph2"
+                        android:paddingLeft="@dimen/dpw2"
+                        android:paddingRight="@dimen/dpw2"
+                        android:paddingTop="@dimen/dph2"
+                        android:singleLine="true"
+                        android:text="24 Y"
+                        android:textColor="@color/c5d5d5d"
+                        android:textIsSelectable="false"
+                        android:textSize="@dimen/sp9" />
+
+                    <View
+                        android:layout_width="@dimen/dpw0.5"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="@dimen/dpw5"
+                        android:layout_marginRight="@dimen/dpw5"
+                        android:background="@color/black"
+                        android:minHeight="50dp" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <RatingBar
+                            android:id="@+id/ratingBar"
+                            style="@style/GreenRatingBar"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:isIndicator="true"
+                            android:numStars="5"
+                            android:stepSize="0.1" />
+
+                        <TextView
+                            android:id="@+id/tv_review"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingBottom="@dimen/dph2"
+                            android:paddingLeft="@dimen/dpw2"
+                            android:paddingRight="@dimen/dpw2"
+                            android:singleLine="true"
+                            android:textColor="@color/c5d5d5d"
+                            android:textSize="@dimen/sp9" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tv_ride"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/li_agerating"
+                    android:layout_alignStart="@+id/li_agerating"
+                    android:layout_below="@+id/li_agerating"
+                    android:layout_marginBottom="@dimen/dph5"
+                    android:layout_marginTop="@dimen/dpw5"
+                    android:singleLine="true"
+                    android:text="Ride Offered - 8"
+                    android:textColor="@color/c5d5d5d"
+                    android:textSize="@dimen/sp11" />
+
+                <TextView
+                    android:id="@+id/tv_seat"
+                    fontPath="@string/font_bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/tv_ride"
+                    android:layout_marginLeft="@dimen/dpw5"
+                    android:text="@string/_3_seats"
+                    android:textColor="@color/c5d5d5d"
+                    android:textIsSelectable="false"
+                    android:textSize="@dimen/sp11"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_car"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/tv_ride"
+                    android:layout_alignStart="@+id/tv_ride"
+                    android:layout_below="@+id/tv_ride"
+                    android:drawableLeft="@mipmap/car_right"
+                    android:singleLine="true"
+                    android:textColor="@color/c5d5d5d"
+                    android:textSize="@dimen/sp9" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="4">
+
+                <View
+                    android:id="@+id/line"
+                    android:layout_width="0.3dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/tv_route_match"
+                    android:layout_alignTop="@+id/tv_passing"
+                    android:layout_marginRight="@dimen/dpw5"
+                    android:background="@color/black" />
+
+                <TextView
+                    android:id="@+id/tv_passing"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dph10"
+                    android:layout_toEndOf="@+id/line"
+                    android:layout_toRightOf="@+id/line"
+                    android:drawableLeft="@mipmap/clock"
+                    android:drawablePadding="@dimen/dpw5"
+                    android:singleLine="true"
+                    android:text="Passing In"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/sp9" />
+
+                <TextView
+                    android:id="@+id/tv_time"
+                    fontPath="@string/font_bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@id/tv_passing"
+                    android:layout_alignLeft="@+id/tv_price"
+                    android:layout_alignStart="@+id/tv_price"
+                    android:layout_marginLeft="@dimen/dpw5"
+                    android:layout_marginTop="@dimen/dph5"
+                    android:singleLine="true"
+                    android:text="@string/_22_min"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/sp11"
+                    android:textStyle="bold" />
+
+
+                <View
+                    android:id="@+id/view4"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.3dp"
+                    android:layout_alignLeft="@+id/tv_full_profile"
+                    android:layout_alignStart="@+id/tv_full_profile"
+                    android:layout_below="@+id/tv_passing"
+                    android:layout_marginBottom="@dimen/dph5"
+                    android:layout_marginLeft="@dimen/dpw5"
+                    android:layout_marginRight="@dimen/dpw5"
+                    android:layout_marginTop="@dimen/dph5"
+                    android:background="@color/black" />
+
+                <TextView
+                    android:id="@+id/tv_full_profile"
+                    fontPath="@string/font_bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/view4"
+                    android:layout_marginLeft="@dimen/dpw5"
+                    android:layout_toEndOf="@+id/line"
+                    android:layout_toRightOf="@+id/line"
+                    android:background="#fd0303"
+                    android:paddingBottom="@dimen/dph2"
+                    android:paddingLeft="@dimen/dpw2"
+                    android:paddingRight="@dimen/dpw2"
+                    android:paddingTop="@dimen/dph2"
+                    android:singleLine="false"
+                    android:text="Full Profile"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/sp9"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_price"
+                    fontPath="@string/font_bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/tv_full_profile"
+                    android:layout_marginLeft="@dimen/dpw5"
+                    android:layout_toEndOf="@+id/tv_full_profile"
+                    android:layout_toRightOf="@+id/tv_full_profile"
+                    android:drawableLeft="@mipmap/rup"
+                    android:text="@string/_6_km"
+                    android:textColor="@color/black"
+                    android:textIsSelectable="false"
+                    android:textSize="@dimen/sp11"
+                    android:textStyle="bold" />
+
+                <View
+                    android:id="@+id/view3"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.3dp"
+                    android:layout_below="@+id/tv_full_profile"
+                    android:layout_marginBottom="@dimen/dph5"
+                    android:layout_marginLeft="@dimen/dpw5"
+                    android:layout_marginRight="@dimen/dpw5"
+                    android:layout_marginTop="@dimen/dph5"
+                    android:layout_toEndOf="@+id/line"
+                    android:layout_toRightOf="@+id/line"
+                    android:background="@color/black" />
+
+                <TextView
+                    android:id="@+id/tv_route_match"
+                    fontPath="@string/font_bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/view3"
+                    android:layout_alignStart="@+id/view3"
+                    android:layout_below="@+id/view3"
+                    android:text="Route Match 78%"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/sp11"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

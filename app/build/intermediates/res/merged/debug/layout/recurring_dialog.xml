@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/fab_margin">
+
+    <CheckBox
+        android:id="@+id/cb_is_recurring"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/dph10"
+        android:paddingLeft="@dimen/dpw10"
+        android:paddingRight="@dimen/dpw10"
+        android:paddingTop="@dimen/dph10"
+        android:text="@string/recurring"
+        android:textSize="@dimen/sp14" />
+
+    <LinearLayout
+        android:id="@+id/layout_day_selection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/fab_margin"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <CheckedTextView
+            android:id="@+id/mon_cb"
+            android:layout_width="@dimen/dpw25"
+            android:layout_height="@dimen/dph25"
+            android:layout_marginBottom="@dimen/dph5"
+            android:layout_marginLeft="@dimen/dpw5"
+            android:layout_marginRight="@dimen/dpw5"
+            android:layout_marginTop="@dimen/dph5"
+            android:background="@drawable/border"
+            android:checked="true"
+            android:gravity="center"
+            android:text=" M"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/sp16" />
+
+        <CheckedTextView
+            android:id="@+id/tue_cb"
+            android:layout_width="@dimen/dpw25"
+            android:layout_height="@dimen/dph25"
+            android:layout_marginBottom="@dimen/dph5"
+            android:layout_marginLeft="@dimen/dpw5"
+            android:layout_marginRight="@dimen/dpw5"
+            android:layout_marginTop="@dimen/dph5"
+            android:background="@drawable/border"
+            android:checked="true"
+            android:gravity="center"
+            android:paddingLeft="@dimen/dpw2"
+            android:text=" T"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/sp16" />
+
+        <CheckedTextView
+            android:id="@+id/wed_cb"
+            android:layout_width="@dimen/dpw25"
+            android:layout_height="@dimen/dph25"
+            android:layout_marginBottom="@dimen/dph5"
+            android:layout_marginLeft="@dimen/dpw5"
+            android:layout_marginRight="@dimen/dpw5"
+            android:layout_marginTop="@dimen/dph5"
+            android:background="@drawable/border"
+            android:checked="true"
+            android:gravity="center"
+            android:text=" W"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/sp16" />
+
+        <CheckedTextView
+            android:id="@+id/thr_cb"
+            android:layout_width="@dimen/dpw25"
+            android:layout_height="@dimen/dph25"
+            android:layout_marginBottom="@dimen/dph5"
+            android:layout_marginLeft="@dimen/dpw5"
+            android:layout_marginRight="@dimen/dpw5"
+            android:layout_marginTop="@dimen/dph5"
+            android:background="@drawable/border"
+            android:checked="true"
+            android:gravity="center"
+            android:text=" T"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/sp16" />
+
+        <CheckedTextView
+            android:id="@+id/fri_cb"
+            android:layout_width="@dimen/dpw25"
+            android:layout_height="@dimen/dph25"
+            android:layout_marginBottom="@dimen/dph5"
+            android:layout_marginLeft="@dimen/dpw5"
+            android:layout_marginRight="@dimen/dpw5"
+            android:layout_marginTop="@dimen/dph5"
+            android:background="@drawable/border"
+            android:checked="true"
+            android:gravity="center"
+            android:text=" F"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/sp16" />
+
+        <CheckedTextView
+            android:id="@+id/sat_cb"
+            android:layout_width="@dimen/dpw25"
+            android:layout_height="@dimen/dph25"
+            android:layout_marginBottom="@dimen/dph5"
+            android:layout_marginLeft="@dimen/dpw5"
+            android:layout_marginRight="@dimen/dpw5"
+            android:layout_marginTop="@dimen/dph5"
+            android:background="@drawable/border"
+            android:checked="true"
+            android:gravity="center"
+            android:text=" S"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/sp16" />
+
+        <CheckedTextView
+            android:id="@+id/sun_cb"
+            android:layout_width="@dimen/dpw25"
+            android:layout_height="@dimen/dph25"
+            android:layout_marginBottom="@dimen/dph5"
+            android:layout_marginLeft="@dimen/dpw5"
+            android:layout_marginRight="@dimen/dpw5"
+            android:layout_marginTop="@dimen/dph5"
+            android:background="@drawable/border"
+            android:checked="true"
+            android:gravity="center"
+            android:text=" S"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/sp16" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/rec_sel_done"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/dph15"
+        android:background="@drawable/change1"
+        android:gravity="center"
+        android:paddingBottom="@dimen/dph10"
+        android:paddingLeft="@dimen/dpw10"
+        android:paddingRight="@dimen/dpw10"
+        android:paddingTop="@dimen/dph10"
+        android:text="@string/done"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="@dimen/sp16" />
+
+</LinearLayout>

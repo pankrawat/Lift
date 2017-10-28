@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_parent"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dph40"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/dph6">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dpw70"
+                    android:layout_marginRight="@dimen/dpw70"
+                    android:orientation="vertical"
+                    android:paddingLeft="@dimen/dpw25">
+
+                    <TextView
+                        android:id="@+id/tv_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:layout_marginBottom="@dimen/dph3"
+                        android:text="Abhi"
+                        android:textAllCaps="true"
+                        android:textColor="@color/lightGreen"
+                        android:textSize="@dimen/sp14" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tv_age"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:paddingBottom="@dimen/dph2"
+                            android:paddingLeft="@dimen/dpw2"
+                            android:paddingRight="@dimen/dpw2"
+                            android:paddingTop="@dimen/dph2"
+                            android:singleLine="true"
+                            android:text="24 Y"
+                            android:textColor="@color/c5d5d5d"
+                            android:textIsSelectable="false"
+                            android:textSize="@dimen/sp13" />
+
+                        <View
+                            android:layout_width="@dimen/dpw0.5"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="@dimen/dpw5"
+                            android:layout_marginRight="@dimen/dpw5"
+                            android:background="@color/black"
+                            android:minHeight="50dp" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical">
+
+                            <RatingBar
+                                android:id="@+id/ratingBar"
+                                style="@style/GreenRatingBar"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:isIndicator="true"
+                                android:numStars="5"
+                                android:stepSize="0.1" />
+
+                            <TextView
+                                android:id="@+id/tv_reviews"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingBottom="@dimen/dph2"
+                                android:paddingLeft="@dimen/dpw2"
+                                android:paddingRight="@dimen/dpw2"
+                                android:textColor="@color/c5d5d5d"
+                                android:textSize="@dimen/sp12" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dph0.5"
+                android:background="@color/black" />
+
+            <!--android:layout_height="@dimen/dph50"-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:background="@color/black"
+                android:orientation="horizontal"
+                android:visibility="gone"
+                android:weightSum="3">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:text="Time"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/sp14" />
+
+                    <TextView
+                        android:id="@+id/tv_time"
+                        fontPath="@string/font_light"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:text="0 Mins"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/sp13" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="@dimen/dpw0.5"
+                    android:layout_height="match_parent"
+                    android:background="@color/white" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:text="Distance"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/sp14" />
+
+                    <TextView
+                        android:id="@+id/tv_distance"
+                        fontPath="@string/font_light"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:text="0.00 M"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/sp13" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="@dimen/dpw0.5"
+                    android:layout_height="match_parent"
+                    android:background="@color/white" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:text="Price Till Now"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/sp14" />
+
+                    <TextView
+                        android:id="@+id/tv_price"
+                        fontPath="@string/font_light"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:drawableLeft="@mipmap/rupee"
+                        android:gravity="center_vertical"
+                        android:text="0"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/sp13" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <!--android:layout_height="@dimen/dph40"-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/tv_drop_point"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="@dimen/dpw10"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/sp14" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <com.liftindia.app.specialview.CircleImageView
+            android:id="@+id/iv_profile"
+            android:layout_width="@dimen/dpw70"
+            android:layout_height="@dimen/dph70"
+            android:layout_marginLeft="@dimen/dpw10"
+            android:src="@mipmap/default_user" />
+
+        <com.liftindia.app.specialview.CircleImageView
+            android:id="@+id/iv_end_lift"
+            android:layout_width="@dimen/dpw70"
+            android:layout_height="@dimen/dph70"
+            android:layout_gravity="end|top"
+            android:layout_marginRight="@dimen/dpw10"
+            android:src="@mipmap/end" />
+    </FrameLayout>
+</LinearLayout>

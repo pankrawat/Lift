@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dph35"
+        android:background="#017060"
+        android:orientation="horizontal"
+        android:weightSum="5">
+
+        <TextView
+            android:id="@+id/tv_head"
+            fontPath="@string/font_bold"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/dpw20"
+            android:text="Change Id"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp16" />
+
+        <RelativeLayout
+            android:id="@+id/rl_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:visibility="gone">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:paddingBottom="@dimen/dph5"
+                android:paddingLeft="@dimen/dpw5"
+                android:paddingRight="@dimen/dpw5"
+                android:paddingTop="@dimen/dph5"
+                android:src="@mipmap/white" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <RadioGroup
+        android:id="@+id/groupId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/dpw10"
+        android:paddingRight="@dimen/dpw10">
+
+        <RadioButton
+            android:id="@+id/radio_aadhar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/dph10"
+            android:textSize="@dimen/sp15"
+            android:text="Aadhaar Card" />
+
+        <RadioButton
+            android:id="@+id/radio_voter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/dph10"
+            android:textSize="@dimen/sp15"
+            android:text="Voter Id" />
+
+        <RadioButton
+            android:id="@+id/radio_pan"
+            android:padding="@dimen/dph10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/sp15"
+            android:text="Pan Card" />
+    </RadioGroup>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/et_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/dpw50"
+            android:layout_marginLeft="@dimen/dph15"
+            android:hint="Enter Number"
+            android:inputType="textCapCharacters"
+            android:singleLine="true"
+            android:textAllCaps="true"
+            android:textColor="@color/c5d5d5d"
+            android:textSize="@dimen/sp14" />
+
+        <ImageView
+            android:id="@+id/iv_cam"
+            android:layout_width="@dimen/dpw40"
+            android:layout_height="@dimen/dph40"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:paddingBottom="@dimen/dph5"
+            android:paddingLeft="@dimen/dpw5"
+            android:paddingRight="@dimen/dpw5"
+            android:paddingTop="@dimen/dph5"
+            android:src="@mipmap/green_camera" />
+    </RelativeLayout>
+</LinearLayout>

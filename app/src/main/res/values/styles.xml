@@ -1,0 +1,126 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">
+            @color/colorPrimary
+        </item>
+        <item name="colorPrimaryDark">
+            @color/colorPrimaryDark
+        </item>
+        <item name="colorAccent">
+            @color/colorAccent
+        </item>
+        <item name="android:windowActionBar">
+            false
+        </item>
+        <item name="android:windowNoTitle">
+            true
+        </item>
+        <!--<item name="android:windowTranslucentNavigation">false</item>-->
+        <item name="android:windowDrawsSystemBarBackgrounds">
+            false
+        </item>
+    </style>
+
+    <style name="DialogTheme" parent="Theme.AppCompat.Light.Dialog"/>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+    <style name="GreenRatingBarBig" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">
+            @drawable/ratingbargreenbig
+        </item>
+        <item name="android:minHeight">
+            35dp
+        </item>
+        <item name="android:maxHeight">
+            35dp
+        </item>
+    </style>
+
+    <style name="GreenRatingBar" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">
+            @drawable/ratingbargreen
+        </item>
+        <item name="android:minHeight">
+            15dp
+        </item>
+        <item name="android:maxHeight">
+            15dp
+        </item>
+    </style>
+
+    <style name="RedRatingBar" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">
+            @drawable/ratingbarred
+        </item>
+        <item name="android:minHeight">
+            15dp
+        </item>
+        <item name="android:maxHeight">
+            15dp
+        </item>
+    </style>
+
+    <style name="YellowRatingBar" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">
+            @drawable/ratingbaryellow
+        </item>
+        <item name="android:minHeight">
+            15dp
+        </item>
+        <item name="android:maxHeight">
+            15dp
+        </item>
+    </style>
+
+    <style name="FullyTranslucent" parent="android:Theme.Translucent.NoTitleBar">
+        <item name="android:progressBarStyle">
+            @style/InvisibleProgress
+        </item>
+    </style>
+
+    <style name="InvisibleProgress">
+        <item name="android:visibility">
+            gone
+        </item>
+    </style>
+
+    <style
+        name="FullscreenTheme"
+        parent="AppTheme">
+        <item
+            name="android:actionBarStyle">
+            @style/FullscreenActionBarStyle
+        </item>
+        <item
+            name="android:windowActionBarOverlay">
+            true
+        </item>
+        <item
+            name="android:windowBackground">
+            @null
+        </item>
+        <item
+            name="metaButtonBarStyle">
+            ?android:attr/buttonBarStyle
+        </item>
+        <item
+            name="metaButtonBarButtonStyle">
+            ?android:attr/buttonBarButtonStyle
+        </item>
+    </style>
+
+    <style
+        name="FullscreenActionBarStyle"
+        parent="Widget.AppCompat.ActionBar">
+        <item
+            name="android:background">
+            @color/black_overlay
+        </item>
+    </style>
+</resources>

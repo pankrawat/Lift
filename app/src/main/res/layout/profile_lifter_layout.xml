@@ -1,0 +1,187 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/parent_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="@color/white"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/f3f3f3"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="6">
+
+                <com.liftindia.app.specialview.CircleImageView
+                    android:id="@+id/iv_profile"
+                    android:layout_width="@dimen/dpw60"
+                    android:layout_height="@dimen/dph60"
+                    android:layout_marginRight="@dimen/dph4"
+                    android:layout_marginTop="@dimen/dph5"
+                    android:src="@mipmap/default_user" />
+
+                <TextView
+                    android:id="@+id/tv_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="@dimen/dph5"
+                    android:layout_toEndOf="@+id/iv_profile"
+                    android:layout_toRightOf="@+id/iv_profile"
+                    android:singleLine="true"
+                    android:text="Arvind Kejriwal"
+                    android:textColor="@color/darkGreen"
+                    android:textSize="@dimen/sp14" />
+
+                <TextView
+                    android:id="@+id/tv_age"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/tv_name"
+                    android:layout_alignStart="@+id/tv_name"
+                    android:layout_below="@+id/tv_name"
+                    android:paddingBottom="@dimen/dph2"
+                    android:paddingLeft="@dimen/dpw2"
+                    android:paddingRight="@dimen/dpw2"
+                    android:paddingTop="@dimen/dph2"
+                    android:singleLine="true"
+                    android:text="24 Y |"
+                    android:textColor="@color/c5d5d5d"
+                    android:textIsSelectable="false"
+                    android:textSize="@dimen/sp10" />
+
+                <TextView
+                    android:id="@+id/tv_review"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_name"
+                    android:layout_marginLeft="@dimen/dpw5"
+                    android:layout_marginTop="@dimen/dph2"
+                    android:layout_toEndOf="@+id/tv_age"
+                    android:layout_toRightOf="@+id/tv_age"
+                    android:singleLine="true"
+                    android:text="0 Reviews"
+                    android:textColor="@color/c5d5d5d"
+                    android:textSize="@dimen/sp10" />
+
+                <TextView
+                    android:id="@+id/tv_seats"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/tv_age"
+                    android:layout_alignStart="@+id/tv_age"
+                    android:layout_below="@+id/tv_age"
+                    android:layout_marginBottom="@dimen/dph5"
+                    android:layout_marginTop="@dimen/dph8"
+                    android:singleLine="true"
+                    android:text="No. Of Seats - "
+                    android:textColor="@color/c5d5d5d"
+                    android:textSize="@dimen/sp10" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4">
+
+                <View
+                    android:id="@+id/line"
+                    android:layout_width="0.3dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/rating_bar"
+                    android:layout_marginRight="@dimen/dpw5"
+                    android:background="@color/black" />
+
+
+                <TextView
+                    android:id="@+id/tv_full_profile"
+                    fontPath="@string/font_bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/dph5"
+                    android:layout_marginLeft="@dimen/dpw20"
+                    android:layout_marginStart="@dimen/dpw20"
+                    android:layout_marginTop="@dimen/dph5"
+                    android:background="@drawable/button_shape_red"
+                    android:paddingBottom="@dimen/dph5"
+                    android:paddingLeft="@dimen/dpw5"
+                    android:paddingRight="@dimen/dpw5"
+                    android:paddingTop="@dimen/dph5"
+                    android:singleLine="false"
+                    android:text="Full Profile"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/sp9"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_rate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_full_profile"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/dpw20"
+                    android:layout_marginStart="@dimen/dpw20"
+                    android:text="Rate"
+                    android:textSize="@dimen/sp10" />
+
+                <LinearLayout
+                    android:id="@+id/rating_bar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_rate"
+                    android:layout_marginLeft="@dimen/dpw20"
+                    android:layout_marginStart="@dimen/dpw20"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/star1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@mipmap/star_grey" />
+
+                    <ImageView
+                        android:id="@+id/star2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@mipmap/star_grey" />
+
+                    <ImageView
+                        android:id="@+id/star3"
+                        android:layout_width="@dimen/dpw13"
+                        android:layout_height="@dimen/dph15"
+                        android:src="@mipmap/star_grey" />
+
+                    <ImageView
+                        android:id="@+id/star4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@mipmap/star_grey" />
+
+                    <ImageView
+                        android:id="@+id/star5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@mipmap/star_grey" />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

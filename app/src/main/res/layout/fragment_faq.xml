@@ -1,0 +1,261 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context="com.liftindia.app.fragment.FaqFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dph40"
+        android:background="@color/darkGreen">
+
+        <RelativeLayout
+            android:id="@+id/drawerIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:paddingBottom="@dimen/dph10"
+                android:paddingLeft="@dimen/dpw10"
+                android:paddingRight="@dimen/dpw10"
+                android:paddingTop="@dimen/dph10"
+                android:src="@mipmap/menu" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_header"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/dpw50"
+            android:layout_marginRight="@dimen/dpw50"
+            android:gravity="center"
+            android:text="FAQ"
+            fontPath="@string/font_bold"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp20" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_q1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dph5"
+                android:background="@color/cbdbdbd"
+                android:drawableRight="@mipmap/plus"
+                android:paddingLeft="@dimen/dpw5"
+                android:paddingRight="@dimen/dpw5"
+                android:text="1. What about safety and security?"
+                android:textColor="@color/darkGreen"
+                android:textSize="@dimen/sp14" />
+
+            <TextView
+                android:id="@+id/tv_a1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/cbdbdbd"
+                android:paddingLeft="@dimen/dpw5"
+                android:paddingRight="@dimen/dpw5"
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp13"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tv_q2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dph5"
+                android:background="@color/cbdbdbd"
+                android:drawableRight="@mipmap/plus"
+                android:paddingLeft="@dimen/dpw5"
+                android:paddingRight="@dimen/dpw5"
+                android:text="2. Who is the Lift Requester?"
+                android:textColor="@color/darkGreen"
+                android:textSize="@dimen/sp14" />
+
+            <TextView
+                android:id="@+id/tv_a2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/cbdbdbd"
+                android:paddingLeft="@dimen/dpw5"
+                android:paddingRight="@dimen/dpw5"
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp13"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tv_q3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dph5"
+                android:background="@color/cbdbdbd"
+                android:drawableRight="@mipmap/plus"
+                android:paddingLeft="@dimen/dpw5"
+                android:paddingRight="@dimen/dpw5"
+                android:text="3. Who is the Lift Offerer?"
+                android:textColor="@color/darkGreen"
+                android:textSize="@dimen/sp14" />
+
+            <TextView
+                android:id="@+id/tv_a3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/cbdbdbd"
+                android:paddingLeft="@dimen/dpw5"
+                android:paddingRight="@dimen/dpw5"
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp13"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tv_q4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dph5"
+                android:background="@color/cbdbdbd"
+                android:drawableRight="@mipmap/plus"
+                android:paddingLeft="@dimen/dpw5"
+                android:paddingRight="@dimen/dpw5"
+                android:text="4. How much do I need to wait for the Lift offerer?"
+                android:textColor="@color/darkGreen"
+                android:textSize="@dimen/sp14" />
+
+            <TextView
+                android:id="@+id/tv_a4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/cbdbdbd"
+                android:paddingLeft="@dimen/dpw5"
+                android:paddingRight="@dimen/dpw5"
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp13"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tv_q5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dph5"
+                android:background="@color/cbdbdbd"
+                android:drawableRight="@mipmap/plus"
+                android:paddingLeft="@dimen/dpw5"
+                android:paddingRight="@dimen/dpw5"
+                android:text="5. What is route match %?"
+                android:textColor="@color/darkGreen"
+                android:textSize="@dimen/sp14" />
+
+            <TextView
+                android:id="@+id/tv_a5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/cbdbdbd"
+                android:paddingLeft="@dimen/dpw5"
+                android:paddingRight="@dimen/dpw5"
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp13"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tv_q6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dph5"
+                android:background="@color/cbdbdbd"
+                android:drawableRight="@mipmap/plus"
+                android:paddingLeft="@dimen/dpw5"
+                android:paddingRight="@dimen/dpw5"
+                android:text="6. Would lift offerer pick me up from my start location and drop me to my destination?"
+                android:textColor="@color/darkGreen"
+                android:textSize="@dimen/sp14" />
+
+            <TextView
+                android:id="@+id/tv_a6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/cbdbdbd"
+                android:paddingLeft="@dimen/dpw5"
+                android:paddingRight="@dimen/dpw5"
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp13"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tv_q7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dph5"
+                android:background="@color/cbdbdbd"
+                android:drawableRight="@mipmap/plus"
+                android:paddingLeft="@dimen/dpw5"
+                android:paddingRight="@dimen/dpw5"
+                android:text="7. Is it necessary to enter Endpoint?"
+                android:textColor="@color/darkGreen"
+                android:textSize="@dimen/sp14" />
+
+            <TextView
+                android:id="@+id/tv_a7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/cbdbdbd"
+                android:paddingLeft="@dimen/dpw5"
+                android:paddingRight="@dimen/dpw5"
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp13"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tv_q8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dph5"
+                android:background="@color/cbdbdbd"
+                android:drawableRight="@mipmap/plus"
+                android:paddingLeft="@dimen/dpw5"
+                android:paddingRight="@dimen/dpw5"
+                android:text="8. Why should I offer a lift to anyone?"
+                android:textColor="@color/darkGreen"
+                android:textSize="@dimen/sp14" />
+
+            <TextView
+                android:id="@+id/tv_a8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/cbdbdbd"
+                android:paddingLeft="@dimen/dpw5"
+                android:paddingRight="@dimen/dpw5"
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp13"
+                android:visibility="gone" />
+
+        </LinearLayout>
+    </ScrollView>
+    <!--<ExpandableListView-->
+    <!--android:id="@+id/laptop_list"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:layout_marginTop="@dimen/dph10"-->
+    <!--android:childDivider="@color/cbdbdbd"-->
+
+
+    <!--android:divider="@color/white"-->
+    <!--android:dividerHeight="@dimen/dp10"-->
+    <!--android:footerDividersEnabled="true"-->
+    <!--android:groupIndicator="@null">-->
+
+    <!--</ExpandableListView>-->
+</LinearLayout>

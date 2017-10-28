@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">
+        @color/darkGreen
+    </color>
+    <color name="colorPrimaryDark">
+        #015c4f
+    </color>
+    <color name="colorAccent">
+        @color/c5d5d5d
+    </color>
+    <color name="white">
+        #FFFFFF
+    </color>
+    <color name="darkGreen">
+        #017060
+    </color>
+    <color name="lightGreen">
+        #03a679
+    </color>
+    <color name="cbdbdbd">
+        #bdbdbd
+    </color>
+    <color name="c5d5d5d">
+        #5d5d5d
+    </color>
+    <color name="c323232">
+        #323232
+    </color>
+    <color name="ce0e0e0">
+        #e0e0e0
+    </color>
+    <color name="ce1e1e1">
+        #e1e1e1
+    </color>
+    <color name="c017060">
+        #017060
+    </color>
+    <color name="f3f3f3">
+        #F3F3F3
+    </color>
+    <color name="ceaefeb">
+        #EAEFEB
+    </color>
+    <color name="black">
+        #000000
+    </color>
+    <color name="rupee">
+        #05E9FF
+    </color>
+    <color name="edit_bg">
+        #03A679
+    </color>
+    <color name="delete_bg">
+        #E22F32
+    </color>
+    <color name="view_bg">
+        #3765A3
+    </color>
+    <color name="black1">
+        #2D3E50
+    </color>
+
+    <color name="deselected_path_color">
+        #59d6b4
+    </color>
+    <color name="selected_path_color">
+        #017060
+    </color>
+    <color name="matched_path_color">
+        #2ea7df
+    </color>
+    <color name="red_path_color">
+        #c93232
+    </color>
+    <color name="red">
+        #ff0000
+    </color>
+    <color name="yellow">
+        #ffff00
+    </color>
+    <color name="blue">
+        #0000ff
+    </color>
+    <color name="black_transparent">
+        #90000000
+    </color>
+    <color name="new_tab_color">
+        #42ac8e
+    </color>
+    <color name="chat_bottom_bg">
+        #E6E6E6
+    </color>
+    <color name="chat_input_bg">
+        #C1BFBF
+    </color>
+    <color name="text_color_chat">
+        #7A7979
+    </color>
+
+    <color name="mdtp_accent_color">
+        @color/colorPrimary
+    </color>
+
+    <!-- TODO: for calender -->
+    <color name="caldroid_white">
+        #FFFFFF
+    </color>
+    <color name="caldroid_black">
+        #000000
+    </color>
+    <color name="caldroid_transparent">
+        #00000000
+    </color>
+    <!-- For settings framework -->
+    <color name="caldroid_lighter_gray">
+        #ddd
+    </color>
+    <color name="caldroid_fragment_background">
+        #13191e
+    </color>
+    <color name="caldroid_gridview_background">
+        #1b232d
+    </color>
+
+    <color name="brown">
+        #8B4513
+    </color>
+
+    <color name="caldroid_gray">
+        #CCC
+    </color>
+    <color name="caldroid_darker_gray">
+        #aaa
+    </color>
+    <!-- A light Holo shade of blue -->
+    <color name="caldroid_holo_blue_light">
+        #ff33b5e5
+    </color>
+    <!-- A dark Holo shade of blue -->
+    <color name="caldroid_holo_blue_dark">
+        #ff0099cc
+    </color>
+    <!-- A really bright Holo shade of blue -->
+    <color name="caldroid_sky_blue">
+        #FFA3E8F7
+    </color>
+
+    <color name="black_overlay">
+        #66000000
+    </color>
+
+    <!-- dots inactive colors -->
+    <color name="dot_dark_screen1">
+        #696969
+    </color>
+    <color name="dot_dark_screen2">
+        #696969
+    </color>
+
+    <!-- dots active colors -->
+    <color name="dot_light_screen1">
+        #DCDCDC
+    </color>
+    <color name="dot_light_screen2">
+        #DCDCDC
+    </color>
+
+    <array name="array_dot_active">
+        <item>
+            @color/dot_light_screen1
+        </item>
+        <item>
+            @color/dot_light_screen2
+        </item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>
+            @color/dot_dark_screen1
+        </item>
+        <item>
+            @color/dot_dark_screen2
+        </item>
+    </array>
+
+    <color name="sharePage_background">
+        #E0E0E0
+    </color>
+    <color name="notification_background">#42882f</color>
+</resources>

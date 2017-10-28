@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.CropperActivity">
+
+    <com.isseiaoki.simplecropview.CropImageView xmlns:custom="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/cropImageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/ll_buttons"
+        android:paddingBottom="@dimen/dph14"
+        android:paddingLeft="@dimen/dpw14"
+        android:paddingRight="@dimen/dpw14"
+        android:paddingTop="@dimen/dph14"
+        custom:cropMode="ratio_1_1" />
+
+    <LinearLayout
+        android:id="@+id/ll_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dph40"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/dph0.5">
+
+        <Button
+            android:id="@+id/btn_cancel"
+            fontPath="@string/font_bold"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@color/darkGreen"
+            android:text="Cancel"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp12" />
+
+        <Button
+            android:id="@+id/btn_rotate"
+            fontPath="@string/font_bold"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/dph5"
+            android:layout_marginRight="@dimen/dph5"
+            android:layout_weight="1"
+            android:background="@color/darkGreen"
+            android:text="Rotate"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp12" />
+
+        <Button
+            android:id="@+id/btn_save"
+            fontPath="@string/font_bold"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@color/darkGreen"
+            android:text="Save"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp12" />
+
+    </LinearLayout>
+
+</RelativeLayout>

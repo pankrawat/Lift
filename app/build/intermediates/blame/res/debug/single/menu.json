@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/menu/home.xml",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/menu/home.xml"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\menu\\home.xml",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\src\\main\\res\\menu\\home.xml"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/app/build/intermediates/res/merged/debug/menu/activity_home_drawer.xml",
+        "source": "/home/admin1/Untitled Folder/Lift/app/src/main/res/menu/activity_home_drawer.xml"
+    },
+    {
+        "merged": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_home_drawer.xml",
+        "source": "/home/admin1/Untitled Folder/Lift/D:\\LiftIndiaUpdated\\app\\src\\main\\res\\menu\\activity_home_drawer.xml"
+    }
+]
